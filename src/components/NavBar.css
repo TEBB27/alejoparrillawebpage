@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative
+}
+.logo {
+    max-width: 20vh;
+    max-height: 15vh;
+}
+
+.header__logo {
+    padding-left: 5vw; /* Adjust as needed */
+    max-width: 200px; /* Adjust as needed */
+    max-height: 90%; /* Adjust as needed */
+}
+.header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+.header__nav-list {
+    display: flex;
+    list-style: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0px;
+    padding-top: 20px;
+    background-color: var(--color-our-blue);
+    z-index: 1000; /* This ensures the navbar stays on top of other elements */
+    transition: all 0.3s ease;
+}
+
+.header__nav {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+
+.header__nav-link {
+    color: var(--color-white);
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.header__nav-link:hover {
+    color: var(--color-our-orange);
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4vw;
+    transition: color 0.3s ease;
+}
+.header__nav-item {
+    cursor: pointer;
+}
+
+.header__nav-link:hover {
+    color: #f4a261;
+}
+
+.header__nav-open-button, .header__nav-close-button {
+    background: none;
+    border: none;
+    margin-right: 2vw;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+
+
+.header__spacer{
+    aspect-ratio: 1080/50;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0%;
+}
+
+/* Menú de selector de restaurante */
+.dropdown {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 15vw;
+    margin-right: 5vw;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.1);
+    background-color: var(--color-our-orange);
+    color: var(--color-white);
+    font-size: 1.3vw;
+  }
+  
+  .dropdown-header {
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dropdown-body {
+    padding: 5px;
+    border-top: 1px solid #E5E8EC;
+    display: none;
+  }
+  .dropdown-body.open {
+    display: block;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+  }
+  
+  .dropdown-item:hover {
+    cursor: pointer;
+  }
+  
+  .dropdown-item-dot {
+    opacity: 0;
+    color: var(--color-our-blue);
+    transition: all .2s ease-in-out;
+  }
+  
+  .dropdown-item-dot.selected {
+    opacity: 1;
+  }
+  
+  .icon {
+    font-size: 13px;
+    color: var(--color-white);
+    transform: rotate(0deg);
+    transition: all .2s ease-in-out;
+  }
+  
+  .icon.open {
+    transform: rotate(90deg);
+  }
+@media (max-width: 1024px) {
+    .header {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 5px;
+
+    }
+    .header__logo {
+        padding: 0px;
+    }
+    .logo{
+        max-width: 200px;
+        max-height: 90%;
+    }
+    .header__nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+        background-color: var(--color-our-blue);
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Align items in the center */
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        padding: 20px;
+    }
+
+    .header__nav-list {
+        position: absolute;
+        top:25%;
+        flex-direction: column;
+        margin-right: 25px; /*NO BORRAR ESTA MIERDA*/
+        justify-content: center;
+        width: 100%;
+    }
+
+    .header__nav-item {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .header__nav.open {
+        transform: translateX(0);
+    }
+
+    
+    
+    .header__nav-open-button, .header__nav-close-button  {
+        display: block;
+        position: absolute; /* Position the button absolutely */
+        top: 48px; /* Position it 20px from the top */
+        right: 20px; /* Position it 20px from the right */
+        display: block;
+        align-self: center;
+        margin-right: 10vw;
+    }
+    .button__header {
+        position: fixed; /* Fix the position of the button */
+        bottom: 100px; /* Position it at the bottom */
+        padding: 20px 60px;
+        left: 52%; /* Center it horizontally */
+        transform: translateX(-50%); /* Adjust for the width of the button */
+    }
+    .header__nav-open-button.hide {
+        display: none;
+    }
+    .dropdown{
+        width: 60%;
+        top:75%;
+        left: 19%;
+        font-size: 30px;
+        margin: 0vh;
+        padding: 5px;
+    }
+    .dropdown-body{
+        border: 0px;
+    }
+    .dropdown.with-body {
+        top:57%
+    }
+    .dropdown.with-body .dropdown-header {
+        display: none;
+      }
+      .header__nav-link {
+        font-size: 35px;
+    }
+}
