@@ -55,9 +55,9 @@ const DetallesRestaurante: React.FC<Props> = ({ id, isSelected }) => {
                 <h3 style={isSelected ? { display:'block', color:'var(--color-our-orange)'} : {display:'none'}}>Seleccionado</h3>
             </div>
             <div className="restaurant-card-text">
-                <p className="h3"> {restaurante.name}</p>
-                <p className="p">{restaurante.address}</p>
-                <p className='p'>{restaurante.schedule}</p>
+                <p className="h3">{restaurante.name}</p>
+                <p className="p"><b>Dirección:</b> {restaurante.address}</p>
+                <p className='p'><b>Horario:</b>  {restaurante.schedule}</p>
                 <div className='restaurant-card-container-button'>
                     <a type='button' className="restaurant-card-button" href={`tel:${restaurante.phone}`}>
                         Teléfono

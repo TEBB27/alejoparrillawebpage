@@ -1459,7 +1459,8 @@
 }
 
 .restaurant-card-button {
-    width: 100px;
+    min-width: 100px;
+    width: 120px;
     height: 30px;
     background: var(--color-our-orange);
     border-radius: 20px;
@@ -1474,7 +1475,6 @@
 }
 
 .restaurant-card-button:hover {
-    width: 100px;
     height: 30px;
     background: var(--color-our-blue);
     transition: 0.5s;
