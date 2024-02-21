@@ -397,7 +397,7 @@
     flex-direction: column;
     background: var(--color-our-beige);
     align-items: center;
-    height: auto;
+    height: 90vh;
 }
 
 /*Definición de sección actualizada de Menú*/

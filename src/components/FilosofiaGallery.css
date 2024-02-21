@@ -1,9 +1,9 @@
 .ContainerGallery {
     display: flex;
     width: 60vw;
-    height: 60vh;
+    height: 65vh;
     color: white;
-    padding-bottom: 2.5%;
+    padding: 2.5%;
 }
 
 .ContainerGallery-1,
@@ -60,12 +60,12 @@
 
 .text-container {
     transition: opacity 0.2s ease;
-    transform: translateY(25%);
+    transform: translateY(40%);
 }
 
 .containerText-paragraph {
     opacity: 0;
-    animation-fill-mode: forwards;
+    transition: opacity 0.2s ease;
 }
 
 .ContainerGallery-1:hover .containerText-paragraph,
@@ -74,13 +74,8 @@
 .ContainerGallery-1:active .containerText-paragraph,
 .ContainerGallery-2:active .containerText-paragraph,
 .ContainerGallery-3:active .containerText-paragraph {
-    animation: fadeIn 4s;
-}
-
-.ContainerGallery-1:not(:hover) .containerText-paragraph,
-.ContainerGallery-2:not(:hover) .containerText-paragraph,
-.ContainerGallery-3:not(:hover) .containerText-paragraph {
-    animation: fadeOut 1s;
+    opacity: 1;
+    transition: opacity 4s ease;
 }
 
 @keyframes fadeIn {
