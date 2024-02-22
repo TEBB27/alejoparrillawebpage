@@ -51,7 +51,7 @@ function App() {
   const renderView = () => {
     switch (view) {
       case 'Inicio':
-        return <Inicio setView={setView}/>;
+        return <Inicio setView={setView} selectedItemId={selectedItem ? selectedItem.id : null}/>;
       case 'Nosotros':
         return <Sobrenosotros selectedItemId={selectedItem ? selectedItem.id : null} />;
       case 'Contacto':
@@ -59,7 +59,7 @@ function App() {
       case 'Menú':
         return <div><NewMenu /></div>;
       default:
-        return <Inicio setView={setView}/>;
+        return <Inicio setView={setView} selectedItemId={selectedItem ? selectedItem.id : null}/>;
     }
   }
 

@@ -3,12 +3,32 @@ import restaurant from '../assets/Nosotros-Fachada-AlejoParrilla.png';
 import parrilla from '../assets/parrila.png';
 
 
-export const Inicio = ({ setView }: { setView: (view: string) => void }): JSX.Element => {
+export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) => void, selectedItemId: number | null; }): JSX.Element => {
 
     const handleLinkClick = (view: string) => {
         setView(view);
         window.scrollTo(0, 0);
     };
+
+    let restaurantLink = '';
+
+    switch (selectedItemId) {
+        case 1:
+            restaurantLink = 'https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla';
+            break;
+        case 2:
+            restaurantLink = 'https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla';
+            break;
+        case 3:
+            restaurantLink = 'https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla';
+            break;
+        case 4:
+            restaurantLink = 'https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla';
+            break;
+        default:
+            restaurantLink = 'https://www.rappi.com.co/restaurantes/delivery/25071-alejo-parrilla';
+    }
+
     return (
         <div>
             <div className="container landing">
@@ -19,7 +39,7 @@ export const Inicio = ({ setView }: { setView: (view: string) => void }): JSX.El
 
                     <div className="button-container">
                         <button className="main-button" onClick={() => handleLinkClick('Menú')}>Menú en línea</button>
-                        <button className="second-button">Pide ya</button>
+                        <button className="second-button" onClick={() => window.location.href = restaurantLink}>Pide ya</button>
                     </div>
                 </div>
                 <div className="column has-image">
