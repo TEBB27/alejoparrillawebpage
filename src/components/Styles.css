@@ -32,6 +32,12 @@
     background-color: var(--color-our-blue-light);
     background-image: url("../assets/third-background.png");
 }
+.fifth  {
+    background-color: var(--color-our-blue-light);
+    background-image: url("../assets/fifth-background.png");
+    background-repeat: repeat;
+
+}
 
 .third-paragraph {
     color: white;
@@ -603,20 +609,20 @@
     align-items: center;
     justify-content: center;
     padding: 2vh 1vh;
-    height: 12vw;
-    width: 12vw;
+    height: 12.5vw;
+    width: 11.5vw;
     background-color: var(--color-our-blue);
     border-radius: 30px;
 }
 
 .newMenu_card h3 {
     color: var(--color-our-orange);
-    font-size: x-large;
+    font-size: 1.2vw;
     margin: auto;
 }
 
 .newMenu_card p {
-    font-size: medium;
+    font-size: 0.9vw;
     margin: auto;
     color: var(--color-white);
 }
@@ -1011,12 +1017,8 @@
 
 /*Definición de la sección de vinculate y sus propiedades*/
 .form_container {
-    border: 15vh solid var(--color-our-blue-light);
-    border-top: 10vh solid var(--color-our-blue-light);
-    border-bottom: 0vh;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    background-color: var(--color-our-blue-light);
+    padding: 2vw 9vw;
+    padding-top: 7vw;
 }
 
 

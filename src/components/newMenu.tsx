@@ -52,7 +52,7 @@ function NewMenu() {
                                     </h3>
                                     <FontAwesomeIcon className="bento_arrow" icon={faCircleChevronRight} />
                                 </div>
-                                <div className="small_square bento_square" onClick={() => { setCategory('Bowls'); handleClick(); }}>
+                                <div className="small_square bento_square" onClick={() => { setCategory('Parrilla'); handleClick(); }}>
                                     <img src="./images/menu_categories/alejoparrilla_category_bowls.webp" alt="Bowls" className="bento_image category_bowls" />
                                     <h3 className="bento_title">
                                         Parrilla
