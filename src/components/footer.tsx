@@ -36,6 +36,7 @@ const Footer = ({ setView }:{setView: (view: string) => void}) => {
                 </div>
                 <p onClick={() => handleLinkClick('Contacto')} style={{cursor:"pointer"}}>Contacto</p>
                 <p onClick={() => handleLinkClick('Contacto')} style={{cursor:"pointer"}}>Trabaja con nosotros</p>
+                
             </div>
             <div className="column">
                 <iframe width="300" height="220" loading="lazy"
