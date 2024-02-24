@@ -42,25 +42,25 @@ function Sobrenosotros({ selectedItemId }: SobrenosotrosProps) {
       </div>
 
       {/* Segunda Sección */}
-      <div className='container Mision_Container_SN'>
+      <div className=' landing container Mision_Container_SN'>
         <h2 className="title_alt orange_center_text">Misión</h2>
         <CarouselUpToDown />
       </div>
       {/* Tercera Sección */}
 
-      <div className="landing display_flexDirection_SN">
+      <div className=" second display_flexDirection_SN">
         <h2 className="title_alt orange_center_text">Visión</h2>
         <VisionComponent />
       </div>
 
       {/* Cuarta Sección */}
-      <div className="FilosofiaContainer_SN">
+      <div className="landing FilosofiaContainer_SN">
         <h2 className='title_alt orange_center_text'>Nuestra Filosofia</h2>
         <FilosofiaGallery />
       </div>
 
       {/* Quinta Sección */}
-      <div id="nuestros_restaurantes_container" className="landing Nuestros_restaurantes_container">
+      <div id="nuestros_restaurantes_container" className="second Nuestros_restaurantes_container">
         <h2 id='nuestros_restaurantes_title' className="title_alt orange_center_text">Nuestros restaurantes</h2>
         <Carousel selectedItemId={selectedItemId} />
       </div>

@@ -391,7 +391,6 @@
 .Mision_Container_SN {
     display: flex;
     flex-direction: column;
-    background: var(--color-our-beige);
     align-items: center;
     justify-content: flex-start;
     height: 100vh;
@@ -401,7 +400,6 @@
 .FilosofiaContainer_SN {
     display: flex;
     flex-direction: column;
-    background: var(--color-our-beige);
     align-items: center;
     height: 90vh;
 }
