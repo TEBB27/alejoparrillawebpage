@@ -1428,12 +1428,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 
 /* Crad temporal restaurante */
 .restaurant-card {
-    min-width: 252px;
+    min-width: 250px;
     width: 300px;
     height: auto;
     background: var(--color-our-beige);
@@ -1455,7 +1455,7 @@
 
 .restaurant-card-text {
     margin: 20px;
-    min-height: 150px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: space-around;
@@ -1624,4 +1624,9 @@
 #swiper-button-next::after {
     content: '\276F';
     /* right arrow icon */
+}
+
+/*imagen de inicio*/
+.main_image{
+    border-radius: 50%;
 }
