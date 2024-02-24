@@ -1455,6 +1455,7 @@
 
 .restaurant-card-text {
     margin: 20px;
+    min-height: 150px;
     display: flex;
     flex-direction: column;
     align-items: space-around;
