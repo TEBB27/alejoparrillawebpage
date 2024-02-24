@@ -758,7 +758,8 @@
 }
 
 .minHeight_paddingTop_SN {
-    height: 88vh;
+    height: auto;
+    min-height: 88vh;
     padding-top: 12vh;
 }
 

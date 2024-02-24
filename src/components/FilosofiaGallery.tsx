@@ -18,7 +18,7 @@ const FilosofiaGallery: React.FC = () => {
             </div>
             <div className='ContainerGallery-3'>
                 <div className='text-container'>
-                    <h3 className='containerTitle'>Excelecia Culinaria</h3>
+                    <h3 className='containerTitle'>Excelencia Culinaria</h3>
                     <p className='containerText-paragraph'>La parrilla es nuestro arte, y la excelencia es nuestro estándar. Nos comprometemos a ofrecer la más alta calidad en cada plato que servimos. Desde la selección cuidadosa de ingredientes frescos hasta la maestría en la parrilla, buscamos superar las expectativas de nuestros clientes en cada detalle. Alejo Parrilla no es solo un restaurante; es un santuario de sabores, donde la calidad y la variedad de nuestros productos se encuentran con la satisfacción del cliente.</p>
                 </div>
             </div>
