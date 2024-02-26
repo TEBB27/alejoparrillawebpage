@@ -42,7 +42,7 @@ body {
     width: 100%;
     padding: 10px 0px;
     padding-top: 20px;
-    background-color: var(--color-our-blue);
+    background: var(--color-our-blue);
     z-index: 1000; /* This ensures the navbar stays on top of other elements */
     transition: all 0.3s ease;
 }
@@ -183,7 +183,8 @@ body {
         right: 0;
         height: 100vh;
         width: 100%;
-        background-color: var(--color-our-blue);
+        background-color: var(--color-our-blue-light);
+        background-image: url("../assets/landing-background.png");
         display: flex;
         flex-direction: column;
         justify-content: center; /* Align items in the center */
