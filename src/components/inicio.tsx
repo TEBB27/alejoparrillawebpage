@@ -1,7 +1,6 @@
 import "./Styles.css";
 import restaurant from '../assets/Nosotros-Fachada-AlejoParrilla.png';
-import parrilla from '../assets/parrila.png';
-
+import parrilla from '../assets/conoce-sobre-nosotros.webp';
 
 export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) => void, selectedItemId: number | null; }): JSX.Element => {
 
@@ -59,13 +58,13 @@ export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) =>
 
                 </div>
                 <div className="column has-image">
-                    <img src={parrilla} alt='Parrilla yummy' className="restaurant_image" />
+                    <img src={parrilla} style={{borderRadius:'20% 10%'}} alt='Imagen de hamburguesa representativa' className="restaurant_image" />
                 </div>
             </div>
 
             <div className="container third">
                 <div className="column has-image">
-                    <img src={parrilla} alt='Parrilla yummy' className="restaurant_image" />
+                    <img src={parrilla} style={{borderRadius:'10% 20%'}} alt='Parrilla yummy' className="restaurant_image" />
                 </div>
                 <div className="column">
                     <h2 className='title_alt_IN'>Nuestro menu</h2>
