@@ -420,10 +420,53 @@
     text-align: center;
     margin: 0vh;
     margin-bottom: 1vh;
-
 }
 
+.newMenu_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
 
+.newMenu_categoryCard {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+    height: 10vw;
+    cursor: pointer;
+}
+.newMenu_categoryCard h2 {
+    color: var(--color-our-orange);
+    font-size: 1.3vw;
+    margin: 0;
+}
+.newMenu_categoryCard p {
+    font-size: 1.1vw;
+}
+
+.newMenu_categoryCard {
+    position: relative;
+    overflow: hidden;
+}
+
+.newMenu_animateUp {
+    background-color: var(--color-our-blue);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(73%);
+}
+
+.newMenu_categoryCard:hover .newMenu_animateUp,
+.newMenu_categoryCard:focus-within .newMenu_animateUp {
+    transform: translateY(0);
+}
 .bento_option {
     align-items: center;
     background-color: var(--color-our-brown-light);
