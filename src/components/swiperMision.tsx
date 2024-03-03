@@ -6,7 +6,7 @@ import '../../node_modules/swiper/swiper.min.css';
 import '../../node_modules/swiper/swiper-bundle.css';
 import '../../node_modules/swiper/modules/effect-cube.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faCircleChevronUp, faCircleChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 import "./SwiperMision.css";
 
@@ -44,8 +44,8 @@ const CarouselUpToDown: React.FC = () => {
                     </div>
                 </SwiperSlide>
                 <div className='swiper_controls'>
-                    <FontAwesomeIcon className="swiper-button-prev" icon={faChevronUp} onClick={() => swiperRef.current?.slidePrev()} />
-                    <FontAwesomeIcon className="swiper-button-next" icon={faChevronDown} onClick={() => swiperRef.current?.slideNext()} />
+                    <FontAwesomeIcon className="swiper-button-prev" icon={faCircleChevronUp} onClick={() => swiperRef.current?.slidePrev()} />
+                    <FontAwesomeIcon className="swiper-button-next" icon={faCircleChevronDown} onClick={() => swiperRef.current?.slideNext()} />
                 </div>
             </Swiper>
         </>
