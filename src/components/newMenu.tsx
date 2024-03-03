@@ -41,15 +41,15 @@ function NewMenu() {
                         <SeeMenu category={category} />
                     </div>
                 ) : (<div className="newMenu_container">
-                {categories.map((category: Category, index: number) => (
-                    <div key={category.id} className="newMenu_categoryCard" style={{ backgroundImage: `url(${category.imagePath})` }} >
-                        <div className="newMenu_categoryCard newMenu_animateUp" onClick={() => { setCategory(category.name); handleClick(); }}>
-                            <h2>{category.name}</h2>
-                            <p>{category.description}</p>
+                    {categories.map((category: Category, index: number) => (
+                        <div key={category.id} className="newMenu_categoryCard" style={{ backgroundImage: `url(${category.imagePath})` }} onClick={() => { setCategory(category.name); handleClick(); }}>
+                            <div className="newMenu_categoryCard newMenu_animateUp" >
+                                <h2>{category.name}</h2>
+                                <p>{category.description}</p>
+                            </div>
                         </div>
-                    </div>
-                ))}
-            </div>
+                    ))}
+                </div>
                 )}
             </div>
         </div>

@@ -467,6 +467,8 @@
 .newMenu_categoryCard:focus-within .newMenu_animateUp {
     transform: translateY(0);
 }
+
+/*Creo que todo lo de bento se puede borrar sin mayor problema*/
 .bento_option {
     align-items: center;
     background-color: var(--color-our-brown-light);
@@ -1215,6 +1217,41 @@
         padding-bottom: 0vh;
         margin-bottom: 0vh;
     }
+
+    .newMenu_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .newMenu_categoryCard {
+        background-color: var(--color-our-blue);
+        background-size: 45%;
+        background-position: 10% 50% !important;
+       display: block;
+       height: 20vh;
+    }
+    .newMenu_categoryCard h2 {
+        font-size: larger;
+        margin: 0;
+        margin-top: 3px;
+    }
+    .newMenu_categoryCard p {
+        font-size: large;
+        margin: 0;
+    }
+    
+    
+    .newMenu_animateUp {
+        position: relative;
+        background-color: #00000000;
+        bottom: 85%;
+        left: 20%;
+        right: 0%;
+        padding-left: 25vw;
+        padding-right: 21vw;
+    }
+
+    
 
     .bento_menu,
     .bento_grid {
