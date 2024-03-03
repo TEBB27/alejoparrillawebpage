@@ -446,6 +446,7 @@
 }
 .newMenu_categoryCard p {
     font-size: 1.1vw;
+    color: var(--color-white);
 }
 
 .newMenu_categoryCard {
