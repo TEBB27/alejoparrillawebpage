@@ -32,7 +32,8 @@
     background-color: var(--color-our-blue-light);
     background-image: url("../assets/third-background.png");
 }
-.fifth  {
+
+.fifth {
     background-color: var(--color-our-blue-light);
     background-image: url("../assets/fifth-background.png");
     background-repeat: repeat;
@@ -439,11 +440,13 @@
     height: 10vw;
     cursor: pointer;
 }
+
 .newMenu_categoryCard h2 {
     color: var(--color-our-orange);
     font-size: 1.3vw;
     margin: 0;
 }
+
 .newMenu_categoryCard p {
     font-size: 1.1vw;
     color: var(--color-white);
@@ -832,7 +835,7 @@
 }
 
 .sobre-nosotros-container-item {
-    max-height:fit-content;
+    max-height: fit-content;
     margin: 0 0 4% 0;
     height: auto;
 }
@@ -1223,25 +1226,27 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    
+
     .newMenu_categoryCard {
         background-color: var(--color-our-blue);
         background-size: 45%;
         background-position: 10% 50% !important;
-       display: block;
-       height: 20vh;
+        display: block;
+        height: 20vh;
     }
+
     .newMenu_categoryCard h2 {
         font-size: larger;
         margin: 0;
         margin-top: 3px;
     }
+
     .newMenu_categoryCard p {
         font-size: large;
         margin: 0;
     }
-    
-    
+
+
     .newMenu_animateUp {
         position: relative;
         background-color: #00000000;
@@ -1252,7 +1257,11 @@
         padding-right: 21vw;
     }
 
-    
+    .newMenu_categoryCard:hover .newMenu_animateUp,
+    .newMenu_categoryCard:focus-within .newMenu_animateUp {
+        transform: none;
+    }
+
 
     .bento_menu,
     .bento_grid {
@@ -1707,6 +1716,6 @@
 }
 
 /*imagen de inicio*/
-.main_image{
+.main_image {
     border-radius: 50%;
 }
