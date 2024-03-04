@@ -157,7 +157,7 @@
         "price": 22900,
         "image": "./images/menu-items/bowls/bowl-carnes.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878824",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878824",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878824",
@@ -172,7 +172,7 @@
         "price": 22900,
         "image": "./images/menu-items/bowls/bowl-frijoles.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878825",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878825",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878825",
@@ -187,7 +187,7 @@
         "price": 8900,
         "image": "./images/menu-items/rapidas/choripapa.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878823",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878823",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878823",
@@ -202,7 +202,7 @@
         "price": 8900,
         "image": "./images/menu-items/rapidas/salchipapa.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878821",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878821",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878821",
@@ -217,7 +217,7 @@
         "price": 15500,
         "image": "./images/menu-items/rapidas/salchipapa-agrandada.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878822",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878822",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878822",
@@ -232,7 +232,7 @@
         "price": 20900,
         "image": "./images/menu-items/rapidas/patacon-mixto.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878819",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878819",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878819",
@@ -247,7 +247,7 @@
         "price": 20900,
         "image": "./images/menu-items/rapidas/lasagna-mixta.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878820",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878820",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878820",
@@ -262,7 +262,7 @@
         "price": 28500,
         "image": "./images/menu-items/sopas/mondongo.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015509",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015509",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015509",
@@ -277,7 +277,7 @@
         "price": 28500,
         "image": "./images/menu-items/sopas/ajiaco.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015514",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015514",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015514",
@@ -292,7 +292,7 @@
         "price": 30500,
         "image": "./images/menu-items/sopas/frijoles-antioquenos.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015504",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015504",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015504",
@@ -307,7 +307,7 @@
         "price": 14900,
         "image": "./images/menu-items/entradas/chunchullo.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091828152",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091828152",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091828152",
@@ -322,7 +322,7 @@
         "price": 8400,
         "image": "./images/menu-items/entradas/morcilla.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015480",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015480",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015480",
@@ -337,7 +337,7 @@
         "price": 16400,
         "image": "./images/menu-items/entradas/patacon-con-camarones.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015474",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015474",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015474",
@@ -352,7 +352,7 @@
         "price": 7900,
         "image": "./images/menu-items/entradas/patacon-con-hogao.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015472",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015472",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015472",
@@ -367,7 +367,7 @@
         "price": 8700,
         "image": "./images/menu-items/entradas/chorizo-con-arepa.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015478",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015478",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015478",
@@ -382,7 +382,7 @@
         "price": 12900,
         "image": "./images/menu-items/entradas/chicharron.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015484",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015484",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015484",
@@ -397,7 +397,7 @@
         "price": 5400,
         "image": "./images/menu-items/entradas/papa-criolla.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015486",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015486",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015486",
@@ -412,7 +412,7 @@
         "price": 5400,
         "image": "./images/menu-items/entradas/papa-francesa.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015490",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015490",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015490",
@@ -427,7 +427,7 @@
         "price": 3900,
         "image": "./images/menu-items/entradas/arroz.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015494",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015494",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015494",
@@ -442,7 +442,7 @@
         "price": 5300,
         "image": "./images/menu-items/entradas/ensalada-verde.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015496",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015496",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015496",
@@ -457,7 +457,7 @@
         "price": 6400,
         "image": "./images/menu-items/bebidas/jugo-de-mora.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015572",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015572",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015572",
@@ -472,7 +472,7 @@
         "price": 7400,
         "image": "./images/menu-items/bebidas/jugo-de-mora.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015592",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015592",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015592",
@@ -487,7 +487,7 @@
         "price": 7400,
         "image": "./images/menu-items/bebidas/jugo-de-mango.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091480339",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091480339",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480339",
@@ -502,7 +502,7 @@
         "price": 6400,
         "image": "./images/menu-items/bebidas/jugo-de-mango.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091480338",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091480338",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480338",
@@ -517,7 +517,7 @@
         "price": 6400,
         "image": "./images/menu-items/bebidas/jugo-de-lulo.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015578",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015578",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015578",
@@ -532,7 +532,7 @@
         "price": 7400,
         "image": "./images/menu-items/bebidas/jugo-de-lulo.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015595",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015595",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015595",
@@ -547,7 +547,7 @@
         "price": 6400,
         "image": "./images/menu-items/bebidas/jugo-de-fresa.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015580",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015580",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015580",
@@ -562,7 +562,7 @@
         "price": 7400,
         "image": "./images/menu-items/bebidas/jugo-de-fresa.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015597",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015597",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015597",
@@ -577,7 +577,7 @@
         "price": 6400,
         "image": "./images/menu-items/bebidas/jugo-de-maracuya.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015587",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015587",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015587",
@@ -592,7 +592,7 @@
         "price": 6400,
         "image": "./images/menu-items/bebidas/jugo-de-guanabana.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015589",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015589",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015589",
@@ -607,7 +607,7 @@
         "price": 7400,
         "image": "./images/menu-items/bebidas/jugo-de-guanabana.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015602",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015602",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015602",
@@ -622,7 +622,7 @@
         "price": 8400,
         "image": "./images/menu-items/bebidas/jugo-de-fresa.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015581",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015581",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015581",
@@ -637,7 +637,7 @@
         "price": 4700,
         "image": "./images/menu-items/bebidas/cola-y-pola.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2095210379",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2095210379",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2095210379",
@@ -652,7 +652,7 @@
         "price": 5900,
         "image": "./images/menu-items/bebidas/club-colombia.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2095210378",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2095210378",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2095210378",
@@ -667,7 +667,7 @@
         "price": 8900,
         "image": "./images/menu-items/bebidas/corona.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015607",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015607",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015607",
@@ -682,7 +682,7 @@
         "price": 2700,
         "image": "./images/menu-items/bebidas/jugo-hit.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015588",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015588",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015588",
@@ -697,7 +697,7 @@
         "price": 3500,
         "image": "./images/menu-items/bebidas/tea-en-botella.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015584",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015584",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015584",
@@ -712,7 +712,7 @@
         "price": 3500,
         "image": "./images/menu-items/bebidas/agua-en-botella.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015604",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015604",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015604",
@@ -727,7 +727,7 @@
         "price": 64900,
         "image": "./images/menu-items/tipicos/picada-para-2.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015498",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015498",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015498",
@@ -742,7 +742,7 @@
         "price": 40900,
         "image": "./images/menu-items/tipicos/sudado-de-costilla.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2095770077",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2095770077",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2095770077",
@@ -757,7 +757,7 @@
         "price": 37900,
         "image": "./images/menu-items/tipicos/sobrebarriga-en-salsa.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015528",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015528",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015528",
@@ -772,7 +772,7 @@
         "price": 34900,
         "image": "./images/menu-items/tipicos/sobrebarriga-a-la-parrilla.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015475",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015475",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015475",
@@ -787,7 +787,7 @@
         "price": 42500,
         "image": "./images/menu-items/tipicos/guiso-de-cola.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015500",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015500",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015500",
@@ -802,7 +802,7 @@
         "price": 36900,
         "image": "./images/menu-items/tipicos/chuleta-valluna.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015574",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015574",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015574",
@@ -817,7 +817,7 @@
         "price": 40900,
         "image": "./images/menu-items/tipicos/lengua-en-salsa.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2095770078",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2095770078",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2095770078",
@@ -832,7 +832,7 @@
         "price": 36900,
         "image": "./images/menu-items/tipicos/bandeja-paisa.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015524",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015524",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015524",
@@ -847,7 +847,7 @@
         "price": 30900,
         "image": "./images/menu-items/tipicos/arroz-con-pollo.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015516",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015516",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015516",
@@ -862,7 +862,7 @@
         "price": 19900,
         "image": "./images/menu-items/infantiles/combo-nuggets.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091480337",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091480337",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480337",
@@ -877,7 +877,7 @@
         "price": 19900,
         "image": "./images/menu-items/infantiles/combo-carnes-mixtas.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015533",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015533",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015533",
@@ -892,7 +892,7 @@
         "price": 19900,
         "image": "./images/menu-items/infantiles/combo-mini-burguer.webp",
         "is_available": false,
-        "links": {
+        "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015538",
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015538",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015538",
