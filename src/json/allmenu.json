@@ -6,7 +6,13 @@
         "category": "Hamburguesas",
         "price": 19900,
         "image": "./images/menu-items/hamburguesas/hamburguesa-doble-carne.webp",
-        "is_available": false
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878814",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878814",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878814",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878814"
+        }
     },
     {
         "id": 24,
@@ -15,7 +21,13 @@
         "category": "Hamburguesas",
         "price": 19500,
         "image": "./images/menu-items/hamburguesas/hamburguesa-mexicana.webp",
-        "is_available": false
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878811",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878811",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878811",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878811"
+        }
     },
     {
         "id": 25,
@@ -24,7 +36,13 @@
         "category": "Hamburguesas",
         "price": 18900,
         "image": "./images/menu-items/hamburguesas/hamburguesa-costena.webp",
-        "is_available": false
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878813",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878813",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878813",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878813"
+        }
     },
     {
         "id": 26,
@@ -33,7 +51,13 @@
         "category": "Hamburguesas",
         "price": 18900,
         "image": "./images/menu-items/hamburguesas/hamburguesa-hawaiana.webp",
-        "is_available": false
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878812",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878812",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878812",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878812"
+        }
     },
     {
         "id": 27,
@@ -42,7 +66,13 @@
         "category": "Hamburguesas",
         "price": 20900,
         "image": "./images/menu-items/hamburguesas/hamburguesa-artesanal.webp",
-        "is_available": false
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091480344",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091480344",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480344",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480344"
+        }
     },
     {
         "id": 28,
@@ -51,7 +81,13 @@
         "category": "Hamburguesas",
         "price": 19900,
         "image": "./images/menu-items/hamburguesas/hamburguesa-mixta.webp",
-        "is_available": false
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091480343",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091480343",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480343",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480343"
+        }
     },
     {
         "id": 29,
@@ -60,7 +96,13 @@
         "category": "Hamburguesas",
         "price": 14900,
         "image": "./images/menu-items/hamburguesas/hamburguesa-res.webp",
-        "is_available": false
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091851067",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091851067",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091851067",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091851067"
+        }
     },
     {
         "id": 30,
@@ -69,7 +111,13 @@
         "category": "Hamburguesas",
         "price": 15900,
         "image": "./images/menu-items/hamburguesas/hamburguesa-criolla.webp",
-        "is_available": false
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091480345",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091480345",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480345",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480345"
+        }
     },
     {
         "id": 31,
@@ -78,7 +126,13 @@
         "category": "Hamburguesas",
         "price": 15500,
         "image": "./images/menu-items/hamburguesas/hamburguesa-pechuga.webp",
-        "is_available": false
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091480342",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091480342",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480342",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480342"
+        }
     },
     {
         "id": 32,
@@ -87,7 +141,13 @@
         "category": "Hamburguesas",
         "price": 31900,
         "image": "./images/menu-items/hamburguesas/hamburguesas-combo-pareja.webp",
-        "is_available": false
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091686881",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091686881",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091686881",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091686881"
+        }
     },
     {
         "id": 33,
@@ -96,7 +156,13 @@
         "category": "Bowls",
         "price": 22900,
         "image": "./images/menu-items/bowls/bowl-carnes.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878824",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878824",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878824",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878824"
+        }
     },
     {
         "id": 34,
@@ -105,7 +171,13 @@
         "category": "Bowls",
         "price": 22900,
         "image": "./images/menu-items/bowls/bowl-frijoles.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878825",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878825",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878825",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878825"
+        }
     },
     {
         "id": 35,
@@ -114,7 +186,13 @@
         "category": "Rápidas",
         "price": 8900,
         "image": "./images/menu-items/rapidas/choripapa.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878823",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878823",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878823",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878823"
+        }
     },
     {
         "id": 36,
@@ -123,7 +201,13 @@
         "category": "Rápidas",
         "price": 8900,
         "image": "./images/menu-items/rapidas/salchipapa.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878821",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878821",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878821",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878821"
+        }
     },
     {
         "id": 37,
@@ -132,16 +216,28 @@
         "category": "Rápidas",
         "price": 15500,
         "image": "./images/menu-items/rapidas/salchipapa-agrandada.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878822",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878822",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878822",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878822"
+        }
     },
     {
         "id": 38,
         "name": "Patacón Mixto",
-        "description": "Patacón dulce cubierto de carne desmechada, pollo con champiñones, queso, guacamole y maiz tierno.",
+        "description": "Patacón dulce cubierto de carne desmechada, pollo con champiñones, queso, guacamole y maíz tierno.",
         "category": "Rápidas",
         "price": 20900,
         "image": "./images/menu-items/rapidas/patacon-mixto.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878819",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878819",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878819",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878819"
+        }
     },
     {
         "id": 39,
@@ -149,116 +245,14 @@
         "description": "Lasaña de res y pollo con salsa de champiñones y pan tajado.",
         "category": "Rápidas",
         "price": 20900,
-        "image": "./images/menu-items/rapidas/lasaña-mixta.webp",
-        "is_available": false
-    },
-    {
-        "id": 40,
-        "name": "Chunchullo",
-        "description": "Chunchullo acompañado de arepa paisa.",
-        "category": "Entradas",
-        "price": 14900,
-        "image": "./images/menu-items/entradas/chunchullo.webp",
-        "is_available": false
-    },
-    {
-        "id": 41,
-        "name": "Morcilla con Criollas",
-        "description": "Morcilla acompañada de papa criolla.",
-        "category": "Entradas",
-        "price": 8400,
-        "image": "./images/menu-items/entradas/morcilla.webp",
-        "is_available": false
-    },
-    {
-        "id": 42,
-        "name": "Patacón con Camarones",
-        "description": "Delicioso patacón con camarones en la parte superior.",
-        "category": "Entradas",
-        "price": 16400,
-        "image": "./images/menu-items/entradas/patacon-con-camarones.webp",
-        "is_available": false
-    },
-    {
-        "id": 43,
-        "name": "Picada para 2",
-        "description": "Picada con costilla de cerdo, pechuga, carne de res, arepa con queso, chorizo, papa criolla, chicharrón, morcilla y plátanos.",
-        "category": "Parrilla",
-        "price": 64900,
-        "image": "./images/menu-items/tipicos/picada-para-2.webp",
-        "is_available": false
-    },
-    {
-        "id": 44,
-        "name": "Sudado de Costilla",
-        "description": "Costilla de res sudada con papa, yuca, mazorca, arroz y aguacate.",
-        "category": "Típicos",
-        "price": 40900,
-        "image": "./images/menu-items/tipicos/sudado-de-costilla.webp",
-        "is_available": false
-    },
-    {
-        "id": 45,
-        "name": "Sobrebarriga en Salsa",
-        "description": "Sobrebarriga con yuca y papa en salsa, arroz y aguacate.",
-        "category": "Típicos",
-        "price": 37900,
-        "image": "./images/menu-items/tipicos/sobrebarriga-en-salsa.webp",
-        "is_available": false
-    },
-    {
-        "id": 46,
-        "name": "Sobrebarriga a la Parrilla",
-        "description": "Sobrebarriga a la parrilla con papas y ensalada.",
-        "category": "Parrilla",
-        "price": 34900,
-        "image": "./images/menu-items/tipicos/sobrebarriga-a-la-parrilla.webp",
-        "is_available": false
-    },
-    {
-        "id": 47,
-        "name": "Guiso de Cola",
-        "description": "Guiso de cola con yuca, papa en salsa, mazorca, arroz y aguacate.",
-        "category": "Típicos",
-        "price": 42500,
-        "image": "./images/menu-items/tipicos/guiso-de-cola.webp",
-        "is_available": false
-    },
-    {
-        "id": 48,
-        "name": "Chuleta Valluna",
-        "description": "Chuleta valluna, con papa francesa, aguacate y arroz.",
-        "category": "Parrilla",
-        "price": 36900,
-        "image": "./images/menu-items/tipicos/chuleta-valluna.webp",
-        "is_available": false
-    },
-    {
-        "id": 49,
-        "name": "Lengua en Salsa",
-        "description": "Lengua en salsa criolla acompañada de arroz, papa y yuca en salsa y ensalada.",
-        "category": "Típicos",
-        "price": 40900,
-        "image": "./images/menu-items/tipicos/lengua-en-salsa.webp",
-        "is_available": false
-    },
-    {
-        "id": 50,
-        "name": "Bandeja Paisa",
-        "description": "Bandeja paisa con carne molida, arroz, frijoles, chicharrón, morcilla, arepa, plátano maduro, aguacate y huevo frito.",
-        "category": "Típicos",
-        "price": 36900,
-        "image": "./images/menu-items/tipicos/bandeja-paisa.webp",
-        "is_available": false
-    },
-    {
-        "id": 51,
-        "name": "Arroz con Pollo",
-        "description": "Arroz con pollo, papa francesa y ensalada con aguacate.",
-        "category": "Típicos",
-        "price": 30900,
-        "image": "./images/menu-items/tipicos/arroz-con-pollo.webp",
-        "is_available": false
+        "image": "./images/menu-items/rapidas/lasagna-mixta.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2092878820",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2092878820",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878820",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2092878820"
+        }
     },
     {
         "id": 52,
@@ -267,7 +261,13 @@
         "category": "Sopas",
         "price": 28500,
         "image": "./images/menu-items/sopas/mondongo.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015509",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015509",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015509",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015509"
+        }
     },
     {
         "id": 53,
@@ -276,7 +276,13 @@
         "category": "Sopas",
         "price": 28500,
         "image": "./images/menu-items/sopas/ajiaco.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015514",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015514",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015514",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015514"
+        }
     },
     {
         "id": 54,
@@ -285,34 +291,58 @@
         "category": "Sopas",
         "price": 30500,
         "image": "./images/menu-items/sopas/frijoles-antioquenos.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015504",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015504",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015504",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015504"
+        }
     },
     {
-        "id": 55,
-        "name": "Combo Nuggets",
-        "description": "Seis nuggets con papas smiles, huevo kinder y jugo hit.",
-        "category": "Menú Infantil",
-        "price": 19900,
-        "image": "./images/menu-items/infantiles/combo-nuggets.webp",
-        "is_available": false
+        "id": 40,
+        "name": "Chunchullo",
+        "description": "Chunchullo acompañado de arepa paisa.",
+        "category": "Entradas",
+        "price": 14900,
+        "image": "./images/menu-items/entradas/chunchullo.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091828152",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091828152",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091828152",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091828152"
+        }
     },
     {
-        "id": 56,
-        "name": "Combo Carnes Mixtas",
-        "description": "Carnes mixtas con papa smile, huevo kinder y jugo hit.",
-        "category": "Menú Infantil",
-        "price": 19900,
-        "image": "./images/menu-items/infantiles/combo-carnes-mixtas.webp",
-        "is_available": false
+        "id": 41,
+        "name": "Morcilla con Criollas",
+        "description": "Morcilla acompañada de papa criolla.",
+        "category": "Entradas",
+        "price": 8400,
+        "image": "./images/menu-items/entradas/morcilla.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015480",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015480",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015480",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015480"
+        }
     },
     {
-        "id": 57,
-        "name": "Combo Mini Burguer",
-        "description": "Mini burguer con papas smiles, huevo kinder y jugo hit.",
-        "category": "Menú Infantil",
-        "price": 19900,
-        "image": "./images/menu-items/infantiles/combo-mini-burguer.webp",
-        "is_available": false
+        "id": 42,
+        "name": "Patacón con Camarones",
+        "description": "Delicioso patacón con camarones en la parte superior.",
+        "category": "Entradas",
+        "price": 16400,
+        "image": "./images/menu-items/entradas/patacon-con-camarones.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015474",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015474",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015474",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015474"
+        }
     },
     {
         "id": 58,
@@ -321,7 +351,13 @@
         "category": "Entradas",
         "price": 7900,
         "image": "./images/menu-items/entradas/patacon-con-hogao.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015472",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015472",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015472",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015472"
+        }
     },
     {
         "id": 59,
@@ -330,7 +366,13 @@
         "category": "Entradas",
         "price": 8700,
         "image": "./images/menu-items/entradas/chorizo-con-arepa.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015478",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015478",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015478",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015478"
+        }
     },
     {
         "id": 60,
@@ -339,7 +381,13 @@
         "category": "Entradas",
         "price": 12900,
         "image": "./images/menu-items/entradas/chicharron.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015484",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015484",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015484",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015484"
+        }
     },
     {
         "id": 61,
@@ -348,16 +396,28 @@
         "category": "Entradas",
         "price": 5400,
         "image": "./images/menu-items/entradas/papa-criolla.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015486",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015486",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015486",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015486"
+        }
     },
     {
         "id": 62,
         "name": "Papa Francesa",
-        "description": "Proción de papa a la francesa.",
+        "description": "Porción de papa a la francesa.",
         "category": "Entradas",
         "price": 5400,
         "image": "./images/menu-items/entradas/papa-francesa.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015490",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015490",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015490",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015490"
+        }
     },
     {
         "id": 63,
@@ -366,7 +426,13 @@
         "category": "Entradas",
         "price": 3900,
         "image": "./images/menu-items/entradas/arroz.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015494",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015494",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015494",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015494"
+        }
     },
     {
         "id": 64,
@@ -375,7 +441,13 @@
         "category": "Entradas",
         "price": 5300,
         "image": "./images/menu-items/entradas/ensalada-verde.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015496",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015496",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015496",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015496"
+        }
     },
     {
         "id": 65,
@@ -384,7 +456,13 @@
         "category": "Bebidas",
         "price": 6400,
         "image": "./images/menu-items/bebidas/jugo-de-mora.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015572",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015572",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015572",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015572"
+        }
     },
     {
         "id": 66,
@@ -393,7 +471,13 @@
         "category": "Bebidas",
         "price": 7400,
         "image": "./images/menu-items/bebidas/jugo-de-mora.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015592",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015592",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015592",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015592"
+        }
     },
     {
         "id": 67,
@@ -402,7 +486,13 @@
         "category": "Bebidas",
         "price": 7400,
         "image": "./images/menu-items/bebidas/jugo-de-mango.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091480339",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091480339",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480339",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480339"
+        }
     },
     {
         "id": 68,
@@ -411,7 +501,13 @@
         "category": "Bebidas",
         "price": 6400,
         "image": "./images/menu-items/bebidas/jugo-de-mango.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091480338",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091480338",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480338",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480338"
+        }
     },
     {
         "id": 69,
@@ -420,7 +516,13 @@
         "category": "Bebidas",
         "price": 6400,
         "image": "./images/menu-items/bebidas/jugo-de-lulo.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015578",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015578",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015578",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015578"
+        }
     },
     {
         "id": 70,
@@ -429,7 +531,13 @@
         "category": "Bebidas",
         "price": 7400,
         "image": "./images/menu-items/bebidas/jugo-de-lulo.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015595",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015595",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015595",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015595"
+        }
     },
     {
         "id": 71,
@@ -438,7 +546,13 @@
         "category": "Bebidas",
         "price": 6400,
         "image": "./images/menu-items/bebidas/jugo-de-fresa.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015580",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015580",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015580",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015580"
+        }
     },
     {
         "id": 72,
@@ -447,7 +561,13 @@
         "category": "Bebidas",
         "price": 7400,
         "image": "./images/menu-items/bebidas/jugo-de-fresa.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015597",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015597",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015597",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015597"
+        }
     },
     {
         "id": 73,
@@ -456,7 +576,13 @@
         "category": "Bebidas",
         "price": 6400,
         "image": "./images/menu-items/bebidas/jugo-de-maracuya.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015587",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015587",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015587",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015587"
+        }
     },
     {
         "id": 74,
@@ -465,7 +591,13 @@
         "category": "Bebidas",
         "price": 6400,
         "image": "./images/menu-items/bebidas/jugo-de-guanabana.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015589",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015589",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015589",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015589"
+        }
     },
     {
         "id": 75,
@@ -474,7 +606,13 @@
         "category": "Bebidas",
         "price": 7400,
         "image": "./images/menu-items/bebidas/jugo-de-guanabana.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015602",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015602",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015602",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015602"
+        }
     },
     {
         "id": 76,
@@ -483,7 +621,13 @@
         "category": "Bebidas",
         "price": 8400,
         "image": "./images/menu-items/bebidas/jugo-de-fresa.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015581",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015581",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015581",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015581"
+        }
     },
     {
         "id": 77,
@@ -492,7 +636,13 @@
         "category": "Bebidas",
         "price": 4700,
         "image": "./images/menu-items/bebidas/cola-y-pola.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2095210379",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2095210379",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2095210379",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2095210379"
+        }
     },
     {
         "id": 78,
@@ -501,7 +651,13 @@
         "category": "Bebidas",
         "price": 5900,
         "image": "./images/menu-items/bebidas/club-colombia.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2095210378",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2095210378",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2095210378",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2095210378"
+        }
     },
     {
         "id": 79,
@@ -510,7 +666,13 @@
         "category": "Bebidas",
         "price": 8900,
         "image": "./images/menu-items/bebidas/corona.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015607",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015607",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015607",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015607"
+        }
     },
     {
         "id": 80,
@@ -519,7 +681,13 @@
         "category": "Bebidas",
         "price": 2700,
         "image": "./images/menu-items/bebidas/jugo-hit.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015588",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015588",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015588",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015588"
+        }
     },
     {
         "id": 81,
@@ -528,7 +696,13 @@
         "category": "Bebidas",
         "price": 3500,
         "image": "./images/menu-items/bebidas/tea-en-botella.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015584",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015584",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015584",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015584"
+        }
     },
     {
         "id": 82,
@@ -537,6 +711,192 @@
         "category": "Bebidas",
         "price": 3500,
         "image": "./images/menu-items/bebidas/agua-en-botella.webp",
-        "is_available": false
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015604",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015604",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015604",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015604"
+        }
+    },
+    {
+        "id": 43,
+        "name": "Picada para 2",
+        "description": "Picada con costilla de cerdo, pechuga, carne de res, arepa con queso, chorizo, papa criolla, chicharrón, morcilla y plátanos.",
+        "category": "Parrilla",
+        "price": 64900,
+        "image": "./images/menu-items/tipicos/picada-para-2.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015498",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015498",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015498",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015498"
+        }
+    },
+    {
+        "id": 44,
+        "name": "Sudado de Costilla",
+        "description": "Costilla de res sudada con papa, yuca, mazorca, arroz y aguacate.",
+        "category": "Típicos",
+        "price": 40900,
+        "image": "./images/menu-items/tipicos/sudado-de-costilla.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2095770077",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2095770077",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2095770077",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2095770077"
+        }
+    },
+    {
+        "id": 45,
+        "name": "Sobrebarriga en Salsa",
+        "description": "Sobrebarriga con yuca y papa en salsa, arroz y aguacate.",
+        "category": "Típicos",
+        "price": 37900,
+        "image": "./images/menu-items/tipicos/sobrebarriga-en-salsa.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015528",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015528",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015528",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015528"
+        }
+    },
+    {
+        "id": 46,
+        "name": "Sobrebarriga a la Parrilla",
+        "description": "Sobrebarriga a la parrilla con papas y ensalada.",
+        "category": "Parrilla",
+        "price": 34900,
+        "image": "./images/menu-items/tipicos/sobrebarriga-a-la-parrilla.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015475",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015475",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015475",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015475"
+        }
+    },
+    {
+        "id": 47,
+        "name": "Guiso de Cola",
+        "description": "Guiso de cola con yuca, papa en salsa, mazorca, arroz y aguacate.",
+        "category": "Típicos",
+        "price": 42500,
+        "image": "./images/menu-items/tipicos/guiso-de-cola.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015500",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015500",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015500",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015500"
+        }
+    },
+    {
+        "id": 48,
+        "name": "Chuleta Valluna",
+        "description": "Chuleta valluna, con papa francesa, aguacate y arroz.",
+        "category": "Parrilla",
+        "price": 36900,
+        "image": "./images/menu-items/tipicos/chuleta-valluna.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015574",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015574",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015574",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015574"
+        }
+    },
+    {
+        "id": 49,
+        "name": "Lengua en Salsa",
+        "description": "Lengua en salsa criolla acompañada de arroz, papa y yuca en salsa y ensalada.",
+        "category": "Típicos",
+        "price": 40900,
+        "image": "./images/menu-items/tipicos/lengua-en-salsa.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2095770078",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2095770078",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2095770078",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2095770078"
+        }
+    },
+    {
+        "id": 50,
+        "name": "Bandeja Paisa",
+        "description": "Bandeja paisa con carne molida, arroz, frijoles, chicharrón, morcilla, arepa, plátano maduro, aguacate y huevo frito.",
+        "category": "Típicos",
+        "price": 36900,
+        "image": "./images/menu-items/tipicos/bandeja-paisa.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015524",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015524",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015524",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015524"
+        }
+    },
+    {
+        "id": 51,
+        "name": "Arroz con Pollo",
+        "description": "Arroz con pollo, papa francesa y ensalada con aguacate.",
+        "category": "Típicos",
+        "price": 30900,
+        "image": "./images/menu-items/tipicos/arroz-con-pollo.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015516",
+            "nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015516",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015516",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015516"
+        }
+    },
+    {
+        "id": 55,
+        "name": "Combo Nuggets",
+        "description": "Seis nuggets con papas smiles, huevo kinder y jugo hit.",
+        "category": "Menú Infantil",
+        "price": 19900,
+        "image": "./images/menu-items/infantiles/combo-nuggets.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091480337",
+            "Nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091480337",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480337",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091480337"
+        }
+    },
+    {
+        "id": 56,
+        "name": "Combo Carnes Mixtas",
+        "description": "Carnes mixtas con papa smile, huevo kinder y jugo hit.",
+        "category": "Menú Infantil",
+        "price": 19900,
+        "image": "./images/menu-items/infantiles/combo-carnes-mixtas.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015533",
+            "Nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015533",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015533",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015533"
+        }
+    },
+    {
+        "id": 57,
+        "name": "Combo Mini Burguer",
+        "description": "Mini burguer con papas smiles, huevo kinder y jugo hit.",
+        "category": "Menú Infantil",
+        "price": 19900,
+        "image": "./images/menu-items/infantiles/combo-mini-burguer.webp",
+        "is_available": false,
+        "links": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015538",
+            "Nuestro Bogota": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015538",
+            "Buro 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015538",
+            "Fontibon": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015538"
+        }
     }
 ]
