@@ -24,15 +24,34 @@ interface MenuItem {
 }
 
 interface SeeMenuProps {
-    category?: string;
+    category: string;
+    selectedItemName: string | null;
 }
 
-function SeeMenu({ category = 'Hamburguesas' }: SeeMenuProps) {
+function getLinkByIdAndLocation(id, location) {
+    // Busca el item con el id dado
+    const item = allMenu.find(item => item.id === id);
+
+    // Si el item existe y tiene un link para la location dada, devuelve ese link
+    if (item && item.locations && item.locations[location]) {
+        return item.locations[location];
+    }
+
+    // Si el item no existe o no tiene un link para la location dada, devuelve null
+    return "https://www.rappi.com.co/restaurantes/delivery/25071-alejo-parrilla";
+}
+
+const SeeMenu: React.FC<SeeMenuProps> = ({ category, selectedItemName }) => {
     const [items, setItems] = useState<MenuItem[]>([]);
     const [slides, setSlides] = useState<MenuItem[][]>([]);
     const isMobile = useMediaQuery({ query: '(max-width: 1024px)' });
     const itemsPerSlide = isMobile ? 4 : 6;
     const swiperRef = useRef(null);
+
+
+    //Hora de definir la URL del producto dependiendo del restaurante seleccionado
+
+
 
     useEffect(() => {
         const filteredItems = allMenu.filter(item => item.category === category);
@@ -91,7 +110,7 @@ function SeeMenu({ category = 'Hamburguesas' }: SeeMenuProps) {
                                                 <p className="newMenu_price">{item.price} COP</p>
                                             </div>
                                             <div>
-                                                <a href="https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla" target="_blank" rel="noopener noreferrer">
+                                                <a href= {getLinkByIdAndLocation(item.id, selectedItemName)} target="_blank" rel="noopener noreferrer">
                                                     <img src={rappi} alt="Rappi logo" className="rappi-logo newMenu_icon" />
                                                 </a>
                                             </div>

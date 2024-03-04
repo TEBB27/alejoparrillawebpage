@@ -18,7 +18,11 @@ interface category {
     image: string;
 }
 
-function NewMenu() {
+interface NewMenuProps {
+    selectedItemName: string | null;
+}
+
+const NewMenu: React.FC<NewMenuProps> = ({ selectedItemName }) => {
     const [category, setCategory] = useState('Hamburguesas');
     const [isMenuActive, setMenuActive] = useState(false);
     const swiperRef = useRef(null);
@@ -30,7 +34,7 @@ function NewMenu() {
 
     return (
         <div className="newMenu third">
-            <h1>Menú</h1>
+            <h1>Menú {selectedItemName}</h1>
             <div>
                 {isMenuActive ? (
                     <div className="bento_menu">
@@ -38,7 +42,7 @@ function NewMenu() {
                             <FontAwesomeIcon className="bento_navbar" icon={faCircleChevronLeft} onClick={handleClick} />
                             <h2 className="bento_title bento_navbar">{category}</h2>
                         </div>
-                        <SeeMenu category={category} />
+                        <SeeMenu category={category} selectedItemName={selectedItemName} />
                     </div>
                 ) : (<div className="newMenu_container">
                     {categories.map((category: Category, index: number) => (

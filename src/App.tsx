@@ -57,7 +57,7 @@ function App() {
       case 'Contacto':
         return <Vinculate />;
       case 'Menú':
-        return <div><NewMenu /></div>;
+        return <div><NewMenu selectedItemName={selectedItem ? selectedItem.label : null}/></div>;
       default:
         return <Inicio setView={setView} selectedItemId={selectedItem ? selectedItem.id : null}/>;
     }
