@@ -31,11 +31,11 @@ const Footer = ({ setView }:{setView: (view: string) => void}) => {
                 <div className="contact-info">
                     <a href="https://wa.me/573214607611" className="contact-info" target="_blank" rel="noopener noreferrer">
                         <FaWhatsapp color="white" />
-                        <span>+57 321-460-7611</span>
+                        <span>¿Tienes algo que contarnos?</span>
                     </a>
                 </div>
-                <p onClick={() => handleLinkClick('Contacto')} style={{cursor:"pointer"}}>Contacto</p>
-                <p onClick={() => handleLinkClick('Contacto')} style={{cursor:"pointer"}}>Trabaja con nosotros</p>
+                <p onClick={() => handleLinkClick('Contacto')} style={{cursor:"pointer"}}>Tu opinión nos importa, ¡contáctanos!</p>
+                <p onClick={() => handleLinkClick('Contacto')} style={{cursor:"pointer"}}>¡Únete a nosotros!</p>
                 
             </div>
             <div className="column">
