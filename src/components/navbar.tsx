@@ -66,7 +66,7 @@ function Navbar({
                 <div className={`dropdown ${isSelectRestaurantOpen ? 'with-body' : ''}`}>
                     <div className='dropdown-header' onClick={toggleDropdown}>
                     <i className="fas fa-map-marker-alt" aria-hidden="true"></i>
-                        {selectedItem ? items.find(item => item.id === selectedItem?.id)?.label : " Selecciona"}
+                        {selectedItem ? items.find(item => item.id === selectedItem?.id)?.label : "Ubicaciones"}
                         <i className={`fa fa-chevron-right icon ${isSelectRestaurantOpen && "open"}`}></i>
                     </div>
                     <div className={`dropdown-body ${isSelectRestaurantOpen && 'open'}`}>
