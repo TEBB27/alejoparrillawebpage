@@ -94,7 +94,8 @@ const SeeMenu: React.FC<SeeMenuProps> = ({ category, selectedItemName }) => {
                                         style={{
                                             backgroundImage: `url(${item.image})`,
                                             backgroundSize: 'cover',
-                                            backgroundRepeat: 'no-repeat'
+                                            backgroundRepeat: 'no-repeat',
+                                            backgroundPosition:'center',
                                         }}
                                         onClick={() => handleFlip(item.id)}
                                     >
