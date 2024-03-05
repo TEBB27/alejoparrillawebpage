@@ -30,11 +30,13 @@ const NewMenu: React.FC<NewMenuProps> = ({ selectedItemName }) => {
         setMenuActive(!isMenuActive);
     };
     const [activeButton, setActiveButton] = useState('Primera página');
-
+    const handleTitleClick = () => {
+        setMenuActive(false);
+    }
 
     return (
         <div className="newMenu third">
-            <h1>Menú {selectedItemName}</h1>
+            <h1 className="animated_title" onClick={handleTitleClick}>Menú {selectedItemName}</h1>
             <div>
                 {isMenuActive ? (
                     <div className="bento_menu">

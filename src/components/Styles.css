@@ -687,7 +687,14 @@
     padding: 1vh 1vh;
     border-radius: 20px;
 }
+.animated_title {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
 
+.animated_title:hover {
+    transform: scale(1.05);
+}
 .swiper_controls {
     display: flex;
     justify-content: right;
