@@ -35,6 +35,7 @@
     color: #ffffff;
     margin: 10px;
     text-align: justify;
+    font-size: 1.2vw;
 }
 .container-vision-item:hover .container-vision-item-div{
     opacity: 1;
