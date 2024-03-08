@@ -1,6 +1,4 @@
 import "./Styles.css";
-import restaurant from '../assets/Nosotros-Fachada-AlejoParrilla.png';
-import parrilla from '../assets/conoce-sobre-nosotros.webp';
 
 export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) => void, selectedItemId: number | null; }): JSX.Element => {
 
@@ -42,7 +40,7 @@ export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) =>
                     </div>
                 </div>
                 <div className="column has-image">
-                    <img src={restaurant} alt="Descriptive text" className="restaurant_image main_image" />
+                    <img src='./images/inicio/imagen-conjunta-2.webp' alt="Descriptive text" style={{borderRadius:'10% 20%'}} className="restaurant_image main_image" />
                 </div>
             </div>
 
@@ -51,23 +49,23 @@ export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) =>
                     <h2 className='title_alt_IN'>Conoce sobre nosotros</h2>
                     <div className="line">
                         <p style={{ color: 'white' }}>
-                            Nuestro menu tiene diferentes variedades de platos distribuidos entre carnes, pescados, comidas rapidas, bolws y demas.
+                        Alejo Parrilla es un lugar para compartir momentos especiales con tus seres queridos. Ofrecemos un ambiente cálido y acogedor, con un servicio atento y personalizado.
                         </p>
                         <button className="third-button" onClick={() => handleLinkClick('Nosotros')}>Sobre Nosotros</button>
                     </div>
 
                 </div>
                 <div className="column has-image">
-                    <img src={parrilla} style={{borderRadius:'20% 10%'}} alt='Imagen de hamburguesa representativa' className="restaurant_image" />
+                    <img src='./images/inicio/imagen-conjunta.webp' style={{borderRadius:'20% 10%'}} alt='Imagen de hamburguesa representativa' className="restaurant_image" />
                 </div>
             </div>
 
             <div className="container third">
                 <div className="column has-image">
-                    <img src={parrilla} style={{borderRadius:'10% 20%'}} alt='Parrilla yummy' className="restaurant_image" />
+                    <img src='./images/inicio/imagen-seccion-menu.webp' style={{borderRadius:'10% 20%'}} alt='Parrilla yummy' className="restaurant_image" />
                 </div>
                 <div className="column">
-                    <h2 className='title_alt_IN'>Nuestro menu</h2>
+                    <h2 className='title_alt_IN'>Nuestro menú</h2>
                     <div className="line">
                         <p style={{ color: 'white' }}>
                             Nuestro menu tiene diferentes variedades de platos distribuidos entre carnes, pescados, comidas rapidas, bolws y demas.
