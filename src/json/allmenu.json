@@ -798,7 +798,7 @@
         "id": 48,
         "name": "Chuleta Valluna",
         "description": "Chuleta valluna, con papa francesa, aguacate y arroz.",
-        "category": "Parrilla",
+        "category": "Típicos",
         "price": 36900,
         "image": "./images/menu-items/tipicos/chuleta-valluna.webp",
         "is_available": false,
@@ -897,6 +897,162 @@
             "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015538",
             "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015538",
             "Fontibón": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015538"
+        }
+    },
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    { 
+        "id": 90,
+        "name": "Punta de Anca",
+        "description": "Corte de carne sin hueso de la parte baja y trasera de la res, con grasa y textura.",
+        "category": "Parrilla",
+        "price": 41500,
+        "image": "",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 91,
+        "name": "Churrasco",
+        "description": "Corte de carne vacuna, generalmente falda o costilla, asado a la parrilla.",
+        "category": "Parrilla",
+        "price": 41500,
+        "image": "",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 92,
+        "name": "Baby Beef",
+        "description": "Corte de res tierno y magro del lomo alto, ¡parrilla o sartén!",
+        "category": "Parrilla",
+        "price": 41900,
+        "image": "",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 93,
+        "name": "Baby Ranchero",
+        "description": "Carne de res tierna de terneros jóvenes, de textura suave y sabor intenso.",
+        "category": "Parrilla",
+        "price": 44900,
+        "image": "",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 94,
+        "name": "Baby Champi",
+        "description": "Champiñón pequeño y tierno, de sabor delicado y textura firme.",
+        "category": "Parrilla",
+        "price": 43900,
+        "image": "",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 95,
+        "name": "Baby a Caballo",
+        "description": "Carne asada con un huevo frito encima, ¡una delicia!",
+        "category": "Parrilla",
+        "price": 43900,
+        "image": "",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 96,
+        "name": "Baby Napolitano",
+        "description": "Tierna carne de res en salsa pomodoro, mozzarella fresca y albahaca.",
+        "category": "Parrilla",
+        "price": 43900,
+        "image": "",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 97,
+        "name": "Baby Stroganoff",
+        "description": "Tiras de carne de res en salsa cremosa con champiñones, perfectas para los paladares más exigentes.",
+        "category": "Parrilla",
+        "price": 44900,
+        "image": "",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 98,
+        "name": "Filet Mignon",
+        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "category": "Parrilla",
+        "price": 44500,
+        "image": "",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
         }
     }
 ]
