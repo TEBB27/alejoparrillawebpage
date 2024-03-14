@@ -286,11 +286,11 @@
     },
     {
         "id": 54,
-        "name": "Frijoles Antioqueños",
+        "name": "Frijolada",
         "description": "Frijoles antioqueños con chicharrón, hogao, arroz, aguacate y arepa.",
-        "category": "Sopas",
+        "category": "Típicos",
         "price": 30500,
-        "image": "./images/menu-items/sopas/frijoles-antioquenos.webp",
+        "image": "./images/menu-items/tipicos/frijolada.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015504",
