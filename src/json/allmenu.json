@@ -720,6 +720,38 @@
         }
     },
     {
+        "id": 84,
+        "name": "Limonadas Especiales",
+        "description": "Limonadas de diversos sabores como cereza, coco y hierbabuena.",
+        "category": "Bebidas",
+        "price": 8400,
+        "image": "./images/menu-items/bebidas/limonadas.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    {
+        "id": 85,
+        "name": "Limonada Natural",
+        "description": "Deliciosa limonada sabor natural, perfecta para un dia caluroso.",
+        "category": "Bebidas",
+        "price": 5900,
+        "image": "./images/menu-items/bebidas/limonada-natural.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+
+
+    {
         "id": 43,
         "name": "Picada para 2",
         "description": "Picada con costilla de cerdo, pechuga, carne de res, arepa con queso, chorizo, papa criolla, chicharrón, morcilla y plátanos.",
