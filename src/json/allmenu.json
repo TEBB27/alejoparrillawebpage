@@ -620,7 +620,7 @@
         "description": "temporal 16oz",
         "category": "Bebidas",
         "price": 8400,
-        "image": "./images/menu-items/bebidas/jugo-de-fresa.webp",
+        "image": "./images/menu-items/bebidas/jugo-de-mandarina.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015581",
