@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleChevronRight, faCircleChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { useRef, useState } from 'react';
 import SeeMenu from "./seeMenu";
+import DrinkSelector from "./drinksSelector";
 import { Swiper, SwiperSlide } from '../../node_modules/swiper/swiper-react';
 import '../../node_modules/swiper/swiper.min.css';
 import '../../node_modules/swiper/swiper-bundle.css';
@@ -26,6 +27,7 @@ const NewMenu: React.FC<NewMenuProps> = ({ selectedItemName }) => {
     const [category, setCategory] = useState('Hamburguesas');
     const [isMenuActive, setMenuActive] = useState(false);
     const swiperRef = useRef(null);
+    const [activeComponent, setActiveComponent] = useState(<SeeMenu category={category} selectedItemName={selectedItemName} />);
     const handleClick = () => {
         setMenuActive(!isMenuActive);
     };
@@ -33,6 +35,17 @@ const NewMenu: React.FC<NewMenuProps> = ({ selectedItemName }) => {
     const handleTitleClick = () => {
         setMenuActive(false);
     }
+
+    const handleClickCategory = (categoryName) => {
+        if (categoryName === 'Bebidas') {
+            setCategory('Bebidas');
+            setActiveComponent(<DrinkSelector />);
+        } else {
+            setCategory(categoryName);
+            setActiveComponent(<SeeMenu category={category} selectedItemName={selectedItemName} />);
+        }
+        handleClick();
+    };
 
     return (
         <div className="newMenu third">
@@ -44,11 +57,16 @@ const NewMenu: React.FC<NewMenuProps> = ({ selectedItemName }) => {
                             <FontAwesomeIcon className="bento_navbar" icon={faCircleChevronLeft} onClick={handleClick} />
                             <h2 className="bento_title bento_navbar">{category}</h2>
                         </div>
-                        <SeeMenu category={category} selectedItemName={selectedItemName} />
+                        {activeComponent}
                     </div>
                 ) : (<div className="newMenu_container">
                     {categories.map((category: Category, index: number) => (
-                        <div key={category.id} className="newMenu_categoryCard" style={{ backgroundImage: `url(${category.imagePath})` }} onClick={() => { setCategory(category.name); handleClick(); }}>
+                        <div
+                            key={category.id}
+                            className="newMenu_categoryCard"
+                            style={{ backgroundImage: `url(${category.imagePath})` }}
+                            onClick={() => handleClickCategory(category.name)}
+                        >
                             <div className="newMenu_categoryCard newMenu_animateUp" >
                                 <h2>{category.name}</h2>
                                 <p>{category.description}</p>
@@ -60,7 +78,6 @@ const NewMenu: React.FC<NewMenuProps> = ({ selectedItemName }) => {
             </div>
         </div>
     );
-
-
 }
+
 export default NewMenu;

@@ -4,7 +4,7 @@
         "name": "Doble Carne",
         "description": "Hamburguesa doble carne de res de 140gr cada una, con tocineta, queso amarillo, lechuga, tomate y cebolla grille.",
         "category": "Hamburguesas",
-        "price": 19900,
+        "price": "19900",
         "image": "./images/menu-items/hamburguesas/hamburguesa-doble-carne.webp",
         "is_available": false,
         "locations": {
@@ -19,7 +19,7 @@
         "name": "Mexicana",
         "description": "Hamburguesa de res con salsa de guacamole, frijol refrito, tostacos, queso, tocineta, cebolla morada, lechuga y tomate.",
         "category": "Hamburguesas",
-        "price": 19500,
+        "price": "19500",
         "image": "./images/menu-items/hamburguesas/hamburguesa-mexicana.webp",
         "is_available": false,
         "locations": {
@@ -34,7 +34,7 @@
         "name": "Costeña",
         "description": "Hamburguesa de res de 140 gr con suero costeño, plátano maduro, cebolla morada, queso, lechuga y tomate.",
         "category": "Hamburguesas",
-        "price": 18900,
+        "price": "18900",
         "image": "./images/menu-items/hamburguesas/hamburguesa-costena.webp",
         "is_available": false,
         "locations": {
@@ -49,7 +49,7 @@
         "name": "Hawaiana",
         "description": "Hamburguesa carne de 140gr de res con piña asada, jamón, queso, lechuga, cebolla y tomate.",
         "category": "Hamburguesas",
-        "price": 18900,
+        "price": "18900",
         "image": "./images/menu-items/hamburguesas/hamburguesa-hawaiana.webp",
         "is_available": false,
         "locations": {
@@ -64,7 +64,7 @@
         "name": "Artesanal",
         "description": "Hamburguesa 250 gr de carne con centro de queso, cebolla grille, lechuga, tomate, champiñones, queso y pepinillos.",
         "category": "Hamburguesas",
-        "price": 20900,
+        "price": "20900",
         "image": "./images/menu-items/hamburguesas/hamburguesa-artesanal.webp",
         "is_available": false,
         "locations": {
@@ -79,7 +79,7 @@
         "name": "Mixta",
         "description": "Hamburguesa res y pechuga asada 140 gr c/u con lechuga, tocineta, tomate, cebolla grille y queso",
         "category": "Hamburguesas",
-        "price": 19900,
+        "price": "19900",
         "image": "./images/menu-items/hamburguesas/hamburguesa-mixta.webp",
         "is_available": false,
         "locations": {
@@ -94,7 +94,7 @@
         "name": "Res",
         "description": "Hamburguesa de 140 gr con tocineta, queso, lechuga, tomate y cebolla grille.",
         "category": "Hamburguesas",
-        "price": 14900,
+        "price": "14900",
         "image": "./images/menu-items/hamburguesas/hamburguesa-res.webp",
         "is_available": false,
         "locations": {
@@ -109,7 +109,7 @@
         "name": "Criolla",
         "description": "Hamburguesa de 140gr de res con huevo frito, queso, salsa criolla y lechuga.",
         "category": "Hamburguesas",
-        "price": 15900,
+        "price": "15900",
         "image": "./images/menu-items/hamburguesas/hamburguesa-criolla.webp",
         "is_available": false,
         "locations": {
@@ -124,7 +124,7 @@
         "name": "Pechuga",
         "description": "Hamburguesa con pechuga asada, lechuga, tomate y cebolla grille.",
         "category": "Hamburguesas",
-        "price": 15500,
+        "price": "15500",
         "image": "./images/menu-items/hamburguesas/hamburguesa-pechuga.webp",
         "is_available": false,
         "locations": {
@@ -139,7 +139,7 @@
         "name": "Combo Pareja",
         "description": "Dos hamburguesas de res 140gr c/u con tocineta, acompañada de papas fritas y dos gaseosas.",
         "category": "Hamburguesas",
-        "price": 31900,
+        "price": "31900",
         "image": "./images/menu-items/hamburguesas/hamburguesas-combo-pareja.webp",
         "is_available": false,
         "locations": {
@@ -154,7 +154,7 @@
         "name": "Carnes",
         "description": "Julianas de res y pollo con ensalada verde, arroz y tajadas de plátano verde.",
         "category": "Bowls",
-        "price": 22900,
+        "price": "22900",
         "image": "./images/menu-items/bowls/bowl-carnes.webp",
         "is_available": false,
         "locations": {
@@ -169,7 +169,7 @@
         "name": "Frijoles",
         "description": "Frijoles con chicharrones, arroz, carne molida, plátano maduro y aguacate.",
         "category": "Bowls",
-        "price": 22900,
+        "price": "22900",
         "image": "./images/menu-items/bowls/bowl-frijoles.webp",
         "is_available": false,
         "locations": {
@@ -184,7 +184,7 @@
         "name": "Choripapa",
         "description": "Chorizo coctel con papas francesas.",
         "category": "Rápidas",
-        "price": 8900,
+        "price": "8900",
         "image": "./images/menu-items/rapidas/choripapa.webp",
         "is_available": false,
         "locations": {
@@ -199,7 +199,7 @@
         "name": "Salchipapa",
         "description": "Salchicha americana con papas a la francesa.",
         "category": "Rápidas",
-        "price": 8900,
+        "price": "8900",
         "image": "./images/menu-items/rapidas/salchipapa.webp",
         "is_available": false,
         "locations": {
@@ -214,7 +214,7 @@
         "name": "Salchipapa Agrandada",
         "description": "Salchicha americana con papas a la francesa.",
         "category": "Rápidas",
-        "price": 15500,
+        "price": "15500",
         "image": "./images/menu-items/rapidas/salchipapa-agrandada.webp",
         "is_available": false,
         "locations": {
@@ -229,7 +229,7 @@
         "name": "Patacón Mixto",
         "description": "Patacón dulce cubierto de carne desmechada, pollo con champiñones, queso, guacamole y maíz tierno.",
         "category": "Rápidas",
-        "price": 20900,
+        "price": "20900",
         "image": "./images/menu-items/rapidas/patacon-mixto.webp",
         "is_available": false,
         "locations": {
@@ -244,7 +244,7 @@
         "name": "Lasagna Mixta",
         "description": "Lasaña de res y pollo con salsa de champiñones y pan tajado.",
         "category": "Rápidas",
-        "price": 20900,
+        "price": "20900",
         "image": "./images/menu-items/rapidas/lasagna-mixta.webp",
         "is_available": false,
         "locations": {
@@ -259,7 +259,7 @@
         "name": "Mondongo",
         "description": "Mondongo con arroz, aguacate y arepa.",
         "category": "Sopas",
-        "price": 28500,
+        "price": "28500",
         "image": "./images/menu-items/sopas/mondongo.webp",
         "is_available": false,
         "locations": {
@@ -274,7 +274,7 @@
         "name": "Ajiaco",
         "description": "Ajiaco con pollo, arroz, aguacate y arepa.",
         "category": "Sopas",
-        "price": 28500,
+        "price": "28500",
         "image": "./images/menu-items/sopas/ajiaco.webp",
         "is_available": false,
         "locations": {
@@ -289,7 +289,7 @@
         "name": "Frijolada",
         "description": "Frijoles antioqueños con chicharrón, hogao, arroz, aguacate y arepa.",
         "category": "Típicos",
-        "price": 30500,
+        "price": "30500",
         "image": "./images/menu-items/tipicos/frijolada.webp",
         "is_available": false,
         "locations": {
@@ -304,7 +304,7 @@
         "name": "Chunchullo",
         "description": "Chunchullo acompañado de arepa paisa.",
         "category": "Entradas",
-        "price": 14900,
+        "price": "14900",
         "image": "./images/menu-items/entradas/chunchullo.webp",
         "is_available": false,
         "locations": {
@@ -319,7 +319,7 @@
         "name": "Morcilla con Criollas",
         "description": "Morcilla acompañada de papa criolla.",
         "category": "Entradas",
-        "price": 8400,
+        "price": "8400",
         "image": "./images/menu-items/entradas/morcilla.webp",
         "is_available": false,
         "locations": {
@@ -334,7 +334,7 @@
         "name": "Patacón con Camarones",
         "description": "Delicioso patacón con camarones en la parte superior.",
         "category": "Entradas",
-        "price": 16400,
+        "price": "16400",
         "image": "./images/menu-items/entradas/patacon-con-camarones.webp",
         "is_available": false,
         "locations": {
@@ -349,7 +349,7 @@
         "name": "Patacón con Hogao",
         "description": "delicioso patacón con hogao.",
         "category": "Entradas",
-        "price": 7900,
+        "price": "7900",
         "image": "./images/menu-items/entradas/patacon-con-hogao.webp",
         "is_available": false,
         "locations": {
@@ -364,7 +364,7 @@
         "name": "Chorizo con Arepa",
         "description": "Delicioso chorizo con arepa.",
         "category": "Entradas",
-        "price": 8700,
+        "price": "8700",
         "image": "./images/menu-items/entradas/chorizo-con-arepa.webp",
         "is_available": false,
         "locations": {
@@ -379,7 +379,7 @@
         "name": "Chicharrón",
         "description": "Delicioso Chicharron",
         "category": "Entradas",
-        "price": 12900,
+        "price": "12900",
         "image": "./images/menu-items/entradas/chicharron.webp",
         "is_available": false,
         "locations": {
@@ -394,7 +394,7 @@
         "name": "Papa Criolla",
         "description": "Porción de papa criolla.",
         "category": "Entradas",
-        "price": 5400,
+        "price": "5400",
         "image": "./images/menu-items/entradas/papa-criolla.webp",
         "is_available": false,
         "locations": {
@@ -409,7 +409,7 @@
         "name": "Papa Francesa",
         "description": "Porción de papa a la francesa.",
         "category": "Entradas",
-        "price": 5400,
+        "price": "5400",
         "image": "./images/menu-items/entradas/papa-francesa.webp",
         "is_available": false,
         "locations": {
@@ -424,7 +424,7 @@
         "name": "Arroz",
         "description": "Porción de arroz.",
         "category": "Entradas",
-        "price": 3900,
+        "price": "3900",
         "image": "./images/menu-items/entradas/arroz.webp",
         "is_available": false,
         "locations": {
@@ -439,7 +439,7 @@
         "name": "Ensalada Verde",
         "description": "Porción de ensalada verde.",
         "category": "Entradas",
-        "price": 5300,
+        "price": "5300",
         "image": "./images/menu-items/entradas/ensalada-verde.webp",
         "is_available": false,
         "locations": {
@@ -454,7 +454,7 @@
         "name": "Jugo de Mora en Agua",
         "description": "Jugo de mora hecho en agua",
         "category": "Bebidas",
-        "price": 6400,
+        "price": "6400",
         "image": "./images/menu-items/bebidas/jugo-de-mora.webp",
         "is_available": false,
         "locations": {
@@ -469,7 +469,7 @@
         "name": "Jugo de Mora en Leche",
         "description": "Jugo de mora en leche",
         "category": "Bebidas",
-        "price": 7400,
+        "price": "7400",
         "image": "./images/menu-items/bebidas/jugo-de-mora.webp",
         "is_available": false,
         "locations": {
@@ -484,7 +484,7 @@
         "name": "Jugo de Mango en Leche",
         "description": "Jugo de mango en leche.",
         "category": "Bebidas",
-        "price": 7400,
+        "price": "7400",
         "image": "./images/menu-items/bebidas/jugo-de-mango.webp",
         "is_available": false,
         "locations": {
@@ -499,7 +499,7 @@
         "name": "Jugo de Mango en Agua",
         "description": "Jugo de mango en agua.",
         "category": "Bebidas",
-        "price": 6400,
+        "price": "6400",
         "image": "./images/menu-items/bebidas/jugo-de-mango.webp",
         "is_available": false,
         "locations": {
@@ -514,7 +514,7 @@
         "name": "Jugo de Lulo en Agua",
         "description": "Jugo de lulo en agua.",
         "category": "Bebidas",
-        "price": 6400,
+        "price": "6400",
         "image": "./images/menu-items/bebidas/jugo-de-lulo.webp",
         "is_available": false,
         "locations": {
@@ -529,7 +529,7 @@
         "name": "Jugo de Lulo en Leche",
         "description": "Jugo de lulo en leche.",
         "category": "Bebidas",
-        "price": 7400,
+        "price": "7400",
         "image": "./images/menu-items/bebidas/jugo-de-lulo.webp",
         "is_available": false,
         "locations": {
@@ -544,7 +544,7 @@
         "name": "Jugo de Fresa en Agua",
         "description": "Jugo de fresa en agua.",
         "category": "Bebidas",
-        "price": 6400,
+        "price": "6400",
         "image": "./images/menu-items/bebidas/jugo-de-fresa.webp",
         "is_available": false,
         "locations": {
@@ -559,7 +559,7 @@
         "name": "Jugo de Fresa en Leche",
         "description": "Jugo de fresa en leche.",
         "category": "Bebidas",
-        "price": 7400,
+        "price": "7400",
         "image": "./images/menu-items/bebidas/jugo-de-fresa.webp",
         "is_available": false,
         "locations": {
@@ -574,7 +574,7 @@
         "name": "Jugo de Maracuyá en Agua",
         "description": "Jugo de maracuyá en agua.",
         "category": "Bebidas",
-        "price": 6400,
+        "price": "6400",
         "image": "./images/menu-items/bebidas/jugo-de-maracuya.webp",
         "is_available": false,
         "locations": {
@@ -589,7 +589,7 @@
         "name": "Jugo de Guanabana en Agua",
         "description": "Jugo de guanabana en agua.",
         "category": "Bebidas",
-        "price": 6400,
+        "price": "6400",
         "image": "./images/menu-items/bebidas/jugo-de-guanabana.webp",
         "is_available": false,
         "locations": {
@@ -604,7 +604,7 @@
         "name": "Jugo de Guanabana en Leche",
         "description": "Jugo de guanabana en leche.",
         "category": "Bebidas",
-        "price": 7400,
+        "price": "7400",
         "image": "./images/menu-items/bebidas/jugo-de-guanabana.webp",
         "is_available": false,
         "locations": {
@@ -619,7 +619,7 @@
         "name": "Jugo de Mandarina",
         "description": "temporal 16oz",
         "category": "Bebidas",
-        "price": 8400,
+        "price": "8400",
         "image": "./images/menu-items/bebidas/jugo-de-mandarina.webp",
         "is_available": false,
         "locations": {
@@ -634,7 +634,7 @@
         "name": "Cola y Pola",
         "description": "Cola y pola en lata de 330ml",
         "category": "Bebidas",
-        "price": 4700,
+        "price": "4700",
         "image": "./images/menu-items/bebidas/cola-y-pola.webp",
         "is_available": false,
         "locations": {
@@ -649,7 +649,7 @@
         "name": "Cerveza Club Colombia",
         "description": "Cerveza Club Colombia en lata de 330ml.",
         "category": "Bebidas",
-        "price": 5900,
+        "price": "5900",
         "image": "./images/menu-items/bebidas/club-colombia.webp",
         "is_available": false,
         "locations": {
@@ -664,7 +664,7 @@
         "name": "Cerveza Corona",
         "description": "Cerveza Corona.",
         "category": "Bebidas",
-        "price": 8900,
+        "price": "8900",
         "image": "./images/menu-items/bebidas/corona.webp",
         "is_available": false,
         "locations": {
@@ -679,7 +679,7 @@
         "name": "Hit Cajita",
         "description": "Jugo Hit en cajita.",
         "category": "Bebidas",
-        "price": 2700,
+        "price": "2700",
         "image": "./images/menu-items/bebidas/jugo-hit.webp",
         "is_available": false,
         "locations": {
@@ -694,7 +694,7 @@
         "name": "Tea en Botella",
         "description": "Tea en botella.",
         "category": "Bebidas",
-        "price": 3500,
+        "price": "3500",
         "image": "./images/menu-items/bebidas/tea-en-botella.webp",
         "is_available": false,
         "locations": {
@@ -709,7 +709,7 @@
         "name": "Agua en Botella",
         "description": "Agua en botella de 500ml.",
         "category": "Bebidas",
-        "price": 3500,
+        "price": "3500",
         "image": "./images/menu-items/bebidas/agua-en-botella.webp",
         "is_available": false,
         "locations": {
@@ -724,7 +724,7 @@
         "name": "Limonadas Especiales",
         "description": "Limonadas de diversos sabores como cereza, coco y hierbabuena.",
         "category": "Bebidas",
-        "price": 8400,
+        "price": "8400",
         "image": "./images/menu-items/bebidas/limonadas.webp",
         "is_available": false,
         "locations": {
@@ -739,7 +739,7 @@
         "name": "Limonada Natural",
         "description": "Deliciosa limonada sabor natural, perfecta para un dia caluroso.",
         "category": "Bebidas",
-        "price": 5900,
+        "price": "5900",
         "image": "./images/menu-items/bebidas/limonada-natural.webp",
         "is_available": false,
         "locations": {
@@ -756,7 +756,7 @@
         "name": "Picada para 2",
         "description": "Picada con costilla de cerdo, pechuga, carne de res, arepa con queso, chorizo, papa criolla, chicharrón, morcilla y plátanos.",
         "category": "Parrilla",
-        "price": 64900,
+        "price": "64900",
         "image": "./images/menu-items/tipicos/picada-para-2.webp",
         "is_available": false,
         "locations": {
@@ -771,7 +771,7 @@
         "name": "Sudado de Costilla",
         "description": "Costilla de res sudada con papa, yuca, mazorca, arroz y aguacate.",
         "category": "Típicos",
-        "price": 40900,
+        "price": "40900",
         "image": "./images/menu-items/tipicos/sudado-de-costilla.webp",
         "is_available": false,
         "locations": {
@@ -786,7 +786,7 @@
         "name": "Sobrebarriga en Salsa",
         "description": "Sobrebarriga con yuca y papa en salsa, arroz y aguacate.",
         "category": "Típicos",
-        "price": 37900,
+        "price": "37900",
         "image": "./images/menu-items/tipicos/sobrebarriga-en-salsa.webp",
         "is_available": false,
         "locations": {
@@ -801,7 +801,7 @@
         "name": "Sobrebarriga a la Parrilla",
         "description": "Sobrebarriga a la parrilla con papas y ensalada.",
         "category": "Parrilla",
-        "price": 34900,
+        "price": "34900",
         "image": "./images/menu-items/tipicos/sobrebarriga-a-la-parrilla.webp",
         "is_available": false,
         "locations": {
@@ -816,7 +816,7 @@
         "name": "Guiso de Cola",
         "description": "Guiso de cola con yuca, papa en salsa, mazorca, arroz y aguacate.",
         "category": "Típicos",
-        "price": 42500,
+        "price": "42500",
         "image": "./images/menu-items/tipicos/guiso-de-cola.webp",
         "is_available": false,
         "locations": {
@@ -831,7 +831,7 @@
         "name": "Chuleta Valluna",
         "description": "Chuleta valluna, con papa francesa, aguacate y arroz.",
         "category": "Típicos",
-        "price": 36900,
+        "price": "36900",
         "image": "./images/menu-items/tipicos/chuleta-valluna.webp",
         "is_available": false,
         "locations": {
@@ -846,7 +846,7 @@
         "name": "Lengua en Salsa",
         "description": "Lengua en salsa criolla acompañada de arroz, papa y yuca en salsa y ensalada.",
         "category": "Típicos",
-        "price": 40900,
+        "price": "40900",
         "image": "./images/menu-items/tipicos/lengua-en-salsa.webp",
         "is_available": false,
         "locations": {
@@ -861,7 +861,7 @@
         "name": "Bandeja Paisa",
         "description": "Bandeja paisa con carne molida, arroz, frijoles, chicharrón, morcilla, arepa, plátano maduro, aguacate y huevo frito.",
         "category": "Típicos",
-        "price": 36900,
+        "price": "36900",
         "image": "./images/menu-items/tipicos/bandeja-paisa.webp",
         "is_available": false,
         "locations": {
@@ -876,7 +876,7 @@
         "name": "Arroz con Pollo",
         "description": "Arroz con pollo, papa francesa y ensalada con aguacate.",
         "category": "Típicos",
-        "price": 30900,
+        "price": "30900",
         "image": "./images/menu-items/tipicos/arroz-con-pollo.webp",
         "is_available": false,
         "locations": {
@@ -891,7 +891,7 @@
         "name": "Combo Nuggets",
         "description": "Seis nuggets con papas smiles, huevo kinder y jugo hit.",
         "category": "Menú Infantil",
-        "price": 19900,
+        "price": "19900",
         "image": "./images/menu-items/infantiles/combo-nuggets.webp",
         "is_available": false,
         "locations": {
@@ -906,7 +906,7 @@
         "name": "Combo Carnes Mixtas",
         "description": "Carnes mixtas con papa smile, huevo kinder y jugo hit.",
         "category": "Menú Infantil",
-        "price": 19900,
+        "price": "19900",
         "image": "./images/menu-items/infantiles/combo-carnes-mixtas.webp",
         "is_available": false,
         "locations": {
@@ -921,7 +921,7 @@
         "name": "Combo Mini Burguer",
         "description": "Mini burguer con papas smiles, huevo kinder y jugo hit.",
         "category": "Menú Infantil",
-        "price": 19900,
+        "price": "19900",
         "image": "./images/menu-items/infantiles/combo-mini-burguer.webp",
         "is_available": false,
         "locations": {
@@ -957,7 +957,7 @@
         "name": "Punta de Anca",
         "description": "Corte de carne sin hueso de la parte baja y trasera de la res, con grasa y textura.",
         "category": "Parrilla",
-        "price": 41500,
+        "price": "41500",
         "image": "",
         "is_available": false,
         "locations": {
@@ -972,7 +972,7 @@
         "name": "Churrasco",
         "description": "Corte de carne vacuna, generalmente falda o costilla, asado a la parrilla.",
         "category": "Parrilla",
-        "price": 41500,
+        "price": "41500",
         "image": "",
         "is_available": false,
         "locations": {
@@ -987,7 +987,7 @@
         "name": "Baby Beef",
         "description": "Corte de res tierno y magro del lomo alto, ¡parrilla o sartén!",
         "category": "Parrilla",
-        "price": 41900,
+        "price": "41900",
         "image": "",
         "is_available": false,
         "locations": {
@@ -1002,7 +1002,7 @@
         "name": "Baby Ranchero",
         "description": "Carne de res tierna de terneros jóvenes, de textura suave y sabor intenso.",
         "category": "Parrilla",
-        "price": 44900,
+        "price": "44900",
         "image": "",
         "is_available": false,
         "locations": {
@@ -1017,7 +1017,7 @@
         "name": "Baby Champi",
         "description": "Champiñón pequeño y tierno, de sabor delicado y textura firme.",
         "category": "Parrilla",
-        "price": 43900,
+        "price": "43900",
         "image": "",
         "is_available": false,
         "locations": {
@@ -1032,7 +1032,7 @@
         "name": "Baby a Caballo",
         "description": "Carne asada con un huevo frito encima, ¡una delicia!",
         "category": "Parrilla",
-        "price": 43900,
+        "price": "43900",
         "image": "",
         "is_available": false,
         "locations": {
@@ -1047,7 +1047,7 @@
         "name": "Baby Napolitano",
         "description": "Tierna carne de res en salsa pomodoro, mozzarella fresca y albahaca.",
         "category": "Parrilla",
-        "price": 43900,
+        "price": "43900",
         "image": "",
         "is_available": false,
         "locations": {
@@ -1062,7 +1062,7 @@
         "name": "Baby Stroganoff",
         "description": "Tiras de carne de res en salsa cremosa con champiñones, perfectas para los paladares más exigentes.",
         "category": "Parrilla",
-        "price": 44900,
+        "price": "44900",
         "image": "",
         "is_available": false,
         "locations": {
@@ -1077,7 +1077,7 @@
         "name": "Filet Mignon",
         "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
         "category": "Parrilla",
-        "price": 44500,
+        "price": "44500",
         "image": "",
         "is_available": false,
         "locations": {

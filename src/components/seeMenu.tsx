@@ -18,7 +18,7 @@ interface MenuItem {
     name: string;
     description: string;
     category: string;
-    price: number;
+    price: string;
     image: string;
     is_available: boolean;
 }
@@ -95,7 +95,7 @@ const SeeMenu: React.FC<SeeMenuProps> = ({ category, selectedItemName }) => {
                                             backgroundImage: `url(${item.image})`,
                                             backgroundSize: 'cover',
                                             backgroundRepeat: 'no-repeat',
-                                            backgroundPosition:'center',
+                                            backgroundPosition: 'center',
                                         }}
                                         onClick={() => handleFlip(item.id)}
                                     >
@@ -104,19 +104,20 @@ const SeeMenu: React.FC<SeeMenuProps> = ({ category, selectedItemName }) => {
                                         className="newMenu_card newMenu_back"
                                         onClick={() => handleFlip(item.id)}
                                     >
-                                        <h3 className="newMenu_title">{item.name}</h3>
-                                        <p className="newMenu_description">{item.description}</p>
-                                        <div className="newMenu_price_order">
-                                            <div>
-                                                <p className="newMenu_price">{item.price} COP</p>
-                                            </div>
-                                            <div>
-                                                <a href= {getLinkByIdAndLocation(item.id, selectedItemName)} target="_blank" rel="noopener noreferrer">
-                                                    <img src={rappi} alt="Rappi logo" className="rappi-logo newMenu_icon" />
-                                                </a>
+                                        <div>
+                                            <h3 className="newMenu_title">{item.name}</h3>
+                                            <p className="newMenu_description">{item.description}</p>
+                                            <div className="newMenu_price_order">
+                                                <div>
+                                                    <p className="newMenu_price">{item.price} COP</p>
+                                                </div>
+                                                <div>
+                                                    <a href={getLinkByIdAndLocation(item.id, selectedItemName)} target="_blank" rel="noopener noreferrer">
+                                                        <img src={rappi} alt="Rappi logo" className="rappi-logo newMenu_icon" />
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </ReactCardFlip>
                             ))}
@@ -132,5 +133,7 @@ const SeeMenu: React.FC<SeeMenuProps> = ({ category, selectedItemName }) => {
         </div>
     );
 }
+
+
 
 export default SeeMenu;

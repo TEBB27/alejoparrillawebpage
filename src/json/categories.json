@@ -1,56 +1,76 @@
 [
-    {
-      "id": 1,
-      "name": "Hamburguesas",
-      "description": "Deliciosas hamburguesas con carne de res de alta calidad.",
-      "imagePath": "./images/menu_categories/hamburguesas.webp"
-    },
-    {
-      "id": 2,
-      "name": "Parrilla",
-      "description": "Cortes de carne a la parrilla, jugosos y llenos de sabor.",
-      "imagePath": "./images/menu_categories/parrilla.webp"
-    },
-    {
-      "id": 3,
-      "name": "Rápidas",
-      "description": "Comidas rápidas para satisfacer tu hambre al instante.",
-      "imagePath": "./images/menu_categories/rapidas.webp"
-    },
-    {
-      "id": 4,
-      "name": "Entradas",
-      "description": "Pequeños platos para abrir el apetito antes del plato principal.",
-      "imagePath": "./images/menu_categories/entradas.webp"
-    },
-    {
-      "id": 5,
-      "name": "Sopas",
-      "description": "Sopas calientes y reconfortantes, perfectas para un día frío.",
-      "imagePath": "./images/menu_categories/sopas.webp"
-    },
-    {
-      "id": 6,
-      "name": "Bebidas",
-      "description": "Refrescantes bebidas para acompañar tu comida.",
-      "imagePath": "./images/menu_categories/bebidas.webp"
-    },
-    {
-      "id": 7,
-      "name": "Típicos",
-      "description": "Platos típicos llenos de tradición y sabor auténtico.",
-      "imagePath": "./images/menu_categories/tipicos.webp"
-    },
-    {
-      "id": 8,
-      "name": "Menú Infantil",
-      "description": "Comidas divertidas y nutritivas para los más pequeños.",
-      "imagePath": "./images/menu_categories/menu_infantil.webp"
-    },
-    {
-      "id": 9,
-      "name": "Bowls",
-      "description": "Bowls saludables y llenos de ingredientes frescos y nutritivos.",
-      "imagePath": "./images/menu_categories/bowls.webp"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Hamburguesas",
+    "description": "Deliciosas hamburguesas con carne de res de alta calidad.",
+    "imagePath": "./images/menu_categories/hamburguesas.webp"
+  },
+  {
+    "id": 2,
+    "name": "Parrilla",
+    "description": "Cortes de carne a la parrilla, jugosos y llenos de sabor.",
+    "imagePath": "./images/menu_categories/parrilla.webp"
+  },
+  {
+    "id": 3,
+    "name": "Rápidas",
+    "description": "Comidas rápidas para satisfacer tu hambre al instante.",
+    "imagePath": "./images/menu_categories/rapidas.webp"
+  },
+  {
+    "id": 4,
+    "name": "Entradas",
+    "description": "Pequeños platos para abrir el apetito antes del plato principal.",
+    "imagePath": "./images/menu_categories/entradas.webp"
+  },
+  {
+    "id": 5,
+    "name": "Sopas",
+    "description": "Sopas calientes y reconfortantes, perfectas para un día frío.",
+    "imagePath": "./images/menu_categories/sopas.webp"
+  },
+  {
+    "id": 6,
+    "name": "Bebidas",
+    "description": "Refrescantes bebidas para acompañar tu comida.",
+    "imagePath": "./images/menu_categories/bebidas.webp",
+    "subcategories": [
+      {
+        "id": 1,
+        "name": "Jugos en agua",
+        "description": "Refrescantes bebidas gaseosas.",
+        "image": "path/to/image"
+      },
+      {
+        "id": 2,
+        "name": "Jugos en leche",
+        "description": "Variedad de cervezas nacionales e internacionales.",
+        "image": "path/to/image"
+      },
+      {
+        "id": 3,
+        "name": "Bebidas en botella/lata",
+        "description": "Deliciosas limonadas naturales y con sabor.",
+        "image": "path/to/image"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Típicos",
+    "description": "Platos típicos llenos de tradición y sabor auténtico.",
+    "imagePath": "./images/menu_categories/tipicos.webp"
+  },
+  {
+    "id": 8,
+    "name": "Menú Infantil",
+    "description": "Comidas divertidas y nutritivas para los más pequeños.",
+    "imagePath": "./images/menu_categories/menu_infantil.webp"
+  },
+  {
+    "id": 9,
+    "name": "Bowls",
+    "description": "Bowls saludables y llenos de ingredientes frescos y nutritivos.",
+    "imagePath": "./images/menu_categories/bowls.webp"
+  }
+]
