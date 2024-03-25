@@ -52,5 +52,11 @@
       "name": "Bowls",
       "description": "Bowls saludables y llenos de ingredientes frescos y nutritivos.",
       "imagePath": "./images/menu_categories/bowls.webp"
+    },
+    {
+      "id": 10,
+      "name": "Pescados",
+      "description": "Bowls saludables y llenos de ingredientes frescos y nutritivos.",
+      "imagePath": "./images/menu_categories/bowls.webp"
     }
   ]
