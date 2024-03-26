@@ -958,7 +958,7 @@
         "description": "Corte de carne sin hueso de la parte baja y trasera de la res, con grasa y textura.",
         "category": "Parrilla",
         "price": "41500",
-        "image": "",
+        "image": "./images/menu-items/parrilla/punta-de-anca.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "Por definir",
@@ -973,7 +973,7 @@
         "description": "Corte de carne vacuna, generalmente falda o costilla, asado a la parrilla.",
         "category": "Parrilla",
         "price": "41500",
-        "image": "",
+        "image": "./images/menu-items/parrilla/churrasco.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "Por definir",
@@ -988,7 +988,7 @@
         "description": "Corte de res tierno y magro del lomo alto, ¡parrilla o sartén!",
         "category": "Parrilla",
         "price": "41900",
-        "image": "",
+        "image": "./images/menu-items/parrilla/baby-beef.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "Por definir",
@@ -1003,7 +1003,7 @@
         "description": "Carne de res tierna de terneros jóvenes, de textura suave y sabor intenso.",
         "category": "Parrilla",
         "price": "44900",
-        "image": "",
+        "image": "./images/menu-items/parrilla/baby-ranchero.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "Por definir",
@@ -1033,7 +1033,7 @@
         "description": "Carne asada con un huevo frito encima, ¡una delicia!",
         "category": "Parrilla",
         "price": "43900",
-        "image": "",
+        "image": "./images/menu-items/parrilla/baby-a-caballo.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "Por definir",
@@ -1078,7 +1078,172 @@
         "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
         "category": "Parrilla",
         "price": "44500",
-        "image": "",
+        "image": "./images/menu-items/parrilla/filet-mignon.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 99,
+        "name": "Pechuga a la Parrilla",
+        "description": "Pechuga jugosa, dorada y ahumada, perfecta para una comida rápida y sabrosa.",
+        "category": "Parrilla",
+        "price": "33500",
+        "image": "./images/menu-items/parrilla/pechuga-a-la-parrilla.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 100,
+        "name": "Pechuga Champi",
+        "description": "Pechuga en salsa cremosa de champiñones. Un clásico irresistible.",
+        "category": "Parrilla",
+        "price": "36900",
+        "image": "./images/menu-items/parrilla/pechuga-champi.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 101,
+        "name": "Pechuga Gratinada",
+        "description": "Pechuga con gratinado dorado. Textura crujiente por fuera y jugosa por dentro. Un sabor irresistible.",
+        "category": "Parrilla",
+        "price": "34500",
+        "image": "./images/menu-items/parrilla/pechuga-gratinada.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 102,
+        "name": "Pechuga Marinera",
+        "description": "Pechuga marinada a la plancha. Sabor intenso y textura suave. Ideal para una comida completa.",
+        "category": "Parrilla",
+        "price": "42500",
+        "image": "./images/menu-items/parrilla/pechuga-marinera.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 103,
+        "name": "Pechuga Hawaiana",
+        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "category": "Parrilla",
+        "price": "36900",
+        "image": "./images/menu-items/parrilla/pechuga-hawaiana.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 104,
+        "name": "Pechuga Apanada",
+        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "category": "Parrilla",
+        "price": "36900",
+        "image": "./images/menu-items/parrilla/pechuga-apanada.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 105,
+        "name": "Pechuga Napolitana",
+        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "category": "Parrilla",
+        "price": "36900",
+        "image": "./images/menu-items/parrilla/pechuga-napolitana.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 106,
+        "name": "Lomo de Cerdo",
+        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "category": "Parrilla",
+        "price": "35500",
+        "image": "./images/menu-items/parrilla/lomo-de-cerdo.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 107,
+        "name": "Lomo Napolitano",
+        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "category": "Parrilla",
+        "price": "36900",
+        "image": "./images/menu-items/parrilla/lomo-napolitano.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 108,
+        "name": "Hueso de Marrano",
+        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "category": "Parrilla",
+        "price": "42500",
+        "image": "./images/menu-items/parrilla/hueso-de-marrano.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "Por definir",
+            "Nuestro Bogotá": "Por definir",
+            "Buró 25": "Por definir",
+            "Fontibón": "Por definir"
+        }
+    },
+    { 
+        "id": 109,
+        "name": "Parrillada Alejo",
+        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "category": "Parrilla",
+        "price": "43500",
+        "image": "./images/menu-items/parrilla/parrillada-alejo.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "Por definir",
