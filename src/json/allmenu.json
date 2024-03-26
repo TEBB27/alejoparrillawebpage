@@ -961,10 +961,10 @@
         "image": "./images/menu-items/parrilla/punta-de-anca.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015459",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015459",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015459",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015459"
         }
     },
     { 
@@ -976,10 +976,10 @@
         "image": "./images/menu-items/parrilla/churrasco.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015455",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015455",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015455",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015455"
         }
     },
     { 
@@ -991,10 +991,10 @@
         "image": "./images/menu-items/parrilla/baby-beef.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015461",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015461",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015461",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015461"
         }
     },
     { 
@@ -1150,7 +1150,7 @@
     { 
         "id": 103,
         "name": "Pechuga Hawaiana",
-        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "description": "Pechuga, piña, jamón y queso se fusionan en una explosión de sabores tropicales.",
         "category": "Parrilla",
         "price": "36900",
         "image": "./images/menu-items/parrilla/pechuga-hawaiana.webp",
@@ -1165,7 +1165,7 @@
     { 
         "id": 104,
         "name": "Pechuga Apanada",
-        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "description": "Crujiente y dorada por fuera, jugosa y tierna por dentro. La pechuga apanada, un clásico irresistible.",
         "category": "Parrilla",
         "price": "36900",
         "image": "./images/menu-items/parrilla/pechuga-apanada.webp",
@@ -1180,7 +1180,7 @@
     { 
         "id": 105,
         "name": "Pechuga Napolitana",
-        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "description": "Tierna pechuga con salsa de tomate, mozzarella y orégano. Un festín de sabores irresistible.",
         "category": "Parrilla",
         "price": "36900",
         "image": "./images/menu-items/parrilla/pechuga-napolitana.webp",
@@ -1188,6 +1188,7 @@
         "locations": {
             "Diver Plaza": "Por definir",
             "Nuestro Bogotá": "Por definir",
+
             "Buró 25": "Por definir",
             "Fontibón": "Por definir"
         }
@@ -1195,7 +1196,7 @@
     { 
         "id": 106,
         "name": "Lomo de Cerdo",
-        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "description": "Lomo de cerdo jugoso y dorado, con corteza crujiente, aroma a especias.",
         "category": "Parrilla",
         "price": "35500",
         "image": "./images/menu-items/parrilla/lomo-de-cerdo.webp",
@@ -1210,7 +1211,7 @@
     { 
         "id": 107,
         "name": "Lomo Napolitano",
-        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "description": "Lomo con salsa napolitana, queso derretido, aroma a orégano.",
         "category": "Parrilla",
         "price": "36900",
         "image": "./images/menu-items/parrilla/lomo-napolitano.webp",
@@ -1225,7 +1226,7 @@
     { 
         "id": 108,
         "name": "Hueso de Marrano",
-        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "description": "Hueso de marrano jugoso, salsa especiada, sabor intenso.",
         "category": "Parrilla",
         "price": "42500",
         "image": "./images/menu-items/parrilla/hueso-de-marrano.webp",
@@ -1240,7 +1241,7 @@
     { 
         "id": 109,
         "name": "Parrillada Alejo",
-        "description": "Filete mignon a la plancha con salsa demi-glace y espárragos baby salteados.",
+        "description": "Carnes a la parrilla, chorizo, arepa, criollas, sabores intensos.",
         "category": "Parrilla",
         "price": "43500",
         "image": "./images/menu-items/parrilla/parrillada-alejo.webp",
