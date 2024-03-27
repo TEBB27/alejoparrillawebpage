@@ -37,21 +37,21 @@
     "subcategories": [
       {
         "id": 1,
-        "name": "Jugos en agua",
+        "name": "Bebidas en agua",
         "description": "Refrescantes bebidas gaseosas.",
-        "image": "path/to/image"
+        "image": "./images/menu_categories/bebidas-en-agua.webp"
       },
       {
         "id": 2,
-        "name": "Jugos en leche",
+        "name": "Bebidas en leche",
         "description": "Variedad de cervezas nacionales e internacionales.",
-        "image": "path/to/image"
+        "image": "./images/menu_categories/bebidas-en-leche.webp"
       },
       {
         "id": 3,
         "name": "En lata o botella",
         "description": "Deliciosas limonadas naturales y con sabor.",
-        "image": "path/to/image"
+        "image": "./images/menu_categories/bebidas.webp"
       }
     ]
   },
@@ -76,7 +76,7 @@
     {
       "id": 10,
       "name": "Pescados",
-      "description": "Bowls saludables y llenos de ingredientes frescos y nutritivos.",
-      "imagePath": "./images/menu_categories/bowls.webp"
+      "description": "Pescados frescos y deliciosos, preparados de diferentes maneras.",
+      "imagePath": "./images/menu_categories/pescados.webp"
   }
 ]

@@ -453,7 +453,7 @@
         "id": 65,
         "name": "Jugo de Mora en Agua",
         "description": "Jugo de mora hecho en agua",
-        "category": "Jugos en agua",
+        "category": "Bebidas en agua",
         "price": "6400",
         "image": "./images/menu-items/bebidas/jugo-de-mora.webp",
         "is_available": false,
@@ -468,7 +468,7 @@
         "id": 66,
         "name": "Jugo de Mora en Leche",
         "description": "Jugo de mora en leche",
-        "category": "Jugos en leche",
+        "category": "Bebidas en leche",
         "price": "7400",
         "image": "./images/menu-items/bebidas/jugo-de-mora.webp",
         "is_available": false,
@@ -483,7 +483,7 @@
         "id": 67,
         "name": "Jugo de Mango en Leche",
         "description": "Jugo de mango en leche.",
-        "category": "Jugos en leche",
+        "category": "Bebidas en leche",
         "price": "7400",
         "image": "./images/menu-items/bebidas/jugo-de-mango.webp",
         "is_available": false,
@@ -498,7 +498,7 @@
         "id": 68,
         "name": "Jugo de Mango en Agua",
         "description": "Jugo de mango en agua.",
-        "category": "Jugos en agua",
+        "category": "Bebidas en agua",
         "price": "6400",
         "image": "./images/menu-items/bebidas/jugo-de-mango.webp",
         "is_available": false,
@@ -513,7 +513,7 @@
         "id": 69,
         "name": "Jugo de Lulo en Agua",
         "description": "Jugo de lulo en agua.",
-        "category": "Jugos en agua",
+        "category": "Bebidas en agua",
         "price": "6400",
         "image": "./images/menu-items/bebidas/jugo-de-lulo.webp",
         "is_available": false,
@@ -528,7 +528,7 @@
         "id": 70,
         "name": "Jugo de Lulo en Leche",
         "description": "Jugo de lulo en leche.",
-        "category": "Jugos en leche",
+        "category": "Bebidas en leche",
         "price": "7400",
         "image": "./images/menu-items/bebidas/jugo-de-lulo.webp",
         "is_available": false,
@@ -543,7 +543,7 @@
         "id": 71,
         "name": "Jugo de Fresa en Agua",
         "description": "Jugo de fresa en agua.",
-        "category": "Jugos en agua",
+        "category": "Bebidas en agua",
         "price": "6400",
         "image": "./images/menu-items/bebidas/jugo-de-fresa.webp",
         "is_available": false,
@@ -558,7 +558,7 @@
         "id": 72,
         "name": "Jugo de Fresa en Leche",
         "description": "Jugo de fresa en leche.",
-        "category": "Jugos en leche",
+        "category": "Bebidas en leche",
         "price": "7400",
         "image": "./images/menu-items/bebidas/jugo-de-fresa.webp",
         "is_available": false,
@@ -573,7 +573,7 @@
         "id": 73,
         "name": "Jugo de Maracuyá en Agua",
         "description": "Jugo de maracuyá en agua.",
-        "category": "Jugos en agua",
+        "category": "Bebidas en agua",
         "price": "6400",
         "image": "./images/menu-items/bebidas/jugo-de-maracuya.webp",
         "is_available": false,
@@ -588,7 +588,7 @@
         "id": 74,
         "name": "Jugo de Guanabana en Agua",
         "description": "Jugo de guanabana en agua.",
-        "category": "Jugos en agua",
+        "category": "Bebidas en agua",
         "price": "6400",
         "image": "./images/menu-items/bebidas/jugo-de-guanabana.webp",
         "is_available": false,
@@ -603,7 +603,7 @@
         "id": 75,
         "name": "Jugo de Guanabana en Leche",
         "description": "Jugo de guanabana en leche.",
-        "category": "Jugos en leche",
+        "category": "Bebidas en leche",
         "price": "7400",
         "image": "./images/menu-items/bebidas/jugo-de-guanabana.webp",
         "is_available": false,
@@ -618,7 +618,7 @@
         "id": 76,
         "name": "Jugo de Mandarina",
         "description": "temporal 16oz",
-        "category": "Jugos en agua",
+        "category": "Bebidas en agua",
         "price": "8400",
         "image": "./images/menu-items/bebidas/jugo-de-mandarina.webp",
         "is_available": false,
@@ -723,7 +723,7 @@
         "id": 84,
         "name": "Limonadas Especiales",
         "description": "Limonadas de diversos sabores como cereza, coco y hierbabuena.",
-        "category": "Jugos en agua",
+        "category": "Bebidas en agua",
         "price": "8400",
         "image": "./images/menu-items/bebidas/limonadas.webp",
         "is_available": false,
@@ -738,7 +738,7 @@
         "id": 85,
         "name": "Limonada Natural",
         "description": "Deliciosa limonada sabor natural, perfecta para un dia caluroso.",
-        "category": "Jugos en agua",
+        "category": "Bebidas en agua",
         "price": "5900",
         "image": "./images/menu-items/bebidas/limonada-natural.webp",
         "is_available": false,
@@ -1006,10 +1006,10 @@
         "image": "./images/menu-items/parrilla/baby-ranchero.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015548",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015548",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015548",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015548"
         }
     },
     { 
@@ -1018,13 +1018,13 @@
         "description": "Champiñón pequeño y tierno, de sabor delicado y textura firme.",
         "category": "Parrilla",
         "price": "43900",
-        "image": "",
+        "image": "./images/menu-items/parrilla/baby-champi.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015467",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015467",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015467",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015467"
         }
     },
     { 
@@ -1036,10 +1036,10 @@
         "image": "./images/menu-items/parrilla/baby-a-caballo.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015463",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015463",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015463",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015463"
         }
     },
     { 
@@ -1063,13 +1063,13 @@
         "description": "Tiras de carne de res en salsa cremosa con champiñones, perfectas para los paladares más exigentes.",
         "category": "Parrilla",
         "price": "44900",
-        "image": "",
+        "image": "./images/menu-items/parrilla/baby-stroganoff.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015466",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015466",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015466",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015466"
         }
     },
     { 
@@ -1081,10 +1081,10 @@
         "image": "./images/menu-items/parrilla/filet-mignon.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015470",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015470",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015470",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015470"
         }
     },
     { 
@@ -1096,10 +1096,10 @@
         "image": "./images/menu-items/parrilla/pechuga-a-la-parrilla.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015476",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015476",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015476",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015476"
         }
     },
     { 
@@ -1111,10 +1111,10 @@
         "image": "./images/menu-items/parrilla/pechuga-champi.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015553",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015553",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015553",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015553"
         }
     },
     { 
@@ -1126,10 +1126,10 @@
         "image": "./images/menu-items/parrilla/pechuga-gratinada.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015481",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015481",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015481",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015481"
         }
     },
     { 
@@ -1202,10 +1202,10 @@
         "image": "./images/menu-items/parrilla/lomo-de-cerdo.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015487",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015487",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015487",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015487"
         }
     },
     { 
@@ -1217,10 +1217,10 @@
         "image": "./images/menu-items/parrilla/lomo-napolitano.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015492",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015492",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015492",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015492"
         }
     },
     { 
@@ -1232,10 +1232,10 @@
         "image": "./images/menu-items/parrilla/hueso-de-marrano.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015569",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015569",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015569",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015569"
         }
     },
     { 
@@ -1247,10 +1247,268 @@
         "image": "./images/menu-items/parrilla/parrillada-alejo.webp",
         "is_available": false,
         "locations": {
-            "Diver Plaza": "Por definir",
-            "Nuestro Bogotá": "Por definir",
-            "Buró 25": "Por definir",
-            "Fontibón": "Por definir"
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015561",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015561",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015561",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015561"
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ,
+    { 
+        "id": 200,
+        "name": "Mojarra Frita",
+        "description": "Deliciosa mojarra frita, perfecta para una sensación de sabor inigualable.",
+        "category": "Pescados",
+        "price": "41900",
+        "image": "./images/menu-items/pescados/mojarra-frita.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015502",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015502",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015502",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015502"
+        }
+    },
+    { 
+        "id": 201,
+        "name": "Bagre Frito",
+        "description": "Delicioso bagre, crujiente por fuera y jugoso por dentro. Sabor suave y textura firme.",
+        "category": "Pescados",
+        "price": "42500",
+        "image": "./images/menu-items/pescados/bagre-frito.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091035209",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091035209",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091035209",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091035209"
+        }
+    },
+    { 
+        "id": 202,
+        "name": "Bagre en Salsa",
+        "description": "Bagre en salsa de tomate, cebolla y pimentón. Sabor intenso y textura suave.",
+        "category": "Pescados",
+        "price": "43500",
+        "image": "./images/menu-items/pescados/bagre-en-salsa.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015511",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015511",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015511",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015511"
+        }
+    },
+    { 
+        "id": 203,
+        "name": "Bagre a la Parrilla",
+        "description": "Bagre a la parrilla con papas y ensalada. Sabor intenso y textura firme.",
+        "category": "Pescados",
+        "price": "41500",
+        "image": "./images/menu-items/pescados/bagre-a-la-parrilla.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015506",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015506",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015506",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015506"
+        }
+    },
+    { 
+        "id": 204,
+        "name": "Sancocho de Bagre",
+        "description": "Explosión de sabores. Caldo sustancioso, yuca blanda, plátano verde y jugoso bagre. ¡irresistible!",
+        "category": "Pescados",
+        "price": "44500",
+        "image": "./images/menu-items/pescados/sancocho-de-bagre.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015519",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015519",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015519",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015519"
+        }
+    },
+    { 
+        "id": 205,
+        "name": "Trucha a la Plancha",
+        "description": "Frescura en cada bocado. Piel dorada y crujiente, carne suave y sabrosa. ¡Un festín para tus sentidos!",
+        "category": "Pescados",
+        "price": "40900",
+        "image": "./images/menu-items/pescados/trucha-a-la-placha.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015526",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015526",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015526",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015526"
+        }
+    },
+    { 
+        "id": 206,
+        "name": "Trucha en Salsa Marinera",
+        "description": "Mar y tierra en armonía. Suave trucha bañada en salsa de mariscos, con un toque de especias.",
+        "category": "Pescados",
+        "price": "48900",
+        "image": "./images/menu-items/pescados/trucha-en-salsa-marinera.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015530",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015530",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015530",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015530"
+        }
+    },
+    { 
+        "id": 207,
+        "name": "Trucha al Ajillo",
+        "description": "Un clásico irresistible. Dorado exterior, carne jugosa y un toque picante del ajo.",
+        "category": "Pescados",
+        "price": "43500",
+        "image": "./images/menu-items/pescados/trucha-al-ajillo.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-prrilla",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla"
+        }
+    },
+    { 
+        "id": 208,
+        "name": "Trucha Champi",
+        "description": "Un festín cremoso. Delicada trucha envuelta en salsa de champiñones, con un toque de nata y hierbas.",
+        "category": "Pescados",
+        "price": "43500",
+        "image": "./images/menu-items/pescados/trucha-champi.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015536",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015536",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015536",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015536"
+        }
+    },
+    { 
+        "id": 209,
+        "name": "Viudo de Capaz",
+        "description": "Pescado blanco en caldo criollo, con yuca, plátano y un toque picante. ",
+        "category": "Pescados",
+        "price": "42500",
+        "image": "./images/menu-items/pescados/viudo.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015521",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015521",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015521",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015521"
+        }
+    },
+    { 
+        "id": 210,
+        "name": "Cazuela de Mariscos",
+        "description": "Camarones, calamares, mejillones y más en una salsa de tomate",
+        "category": "Pescados",
+        "price": "43500",
+        "image": "./images/menu-items/pescados/cazuela-de-mariscos.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015551",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015551",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015551",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015551"
+        }
+    },
+    { 
+        "id": 211,
+        "name": "Arroz de Camarones",
+        "description": "Arroz con camarones, pimentón y cebolla.",
+        "category": "Pescados",
+        "price": "46900",
+        "image": "./images/menu-items/pescados/arroz-con-camarones.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015556",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015556",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015556",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015556"
+        }
+    },
+    { 
+        "id": 212,
+        "name": "Salmón a la Parrilla",
+        "description": "Salmón a la parrilla dorado y un toque ahumado irresistible.",
+        "category": "Pescados",
+        "price": "45900",
+        "image": "",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla"
+        }
+    },
+    { 
+        "id": 213,
+        "name": "Salmón a la Maracuyá",
+        "description": " Salmón marinado bañado en una salsa de maracuyá.",
+        "category": "Pescados",
+        "price": "48500",
+        "image": "",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015546",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015546",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015546",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015546"
+        }
+    },
+    { 
+        "id": 214,
+        "name": "Salmón en Salsa de Camarones",
+        "description": "La textura suave del salmón se fusiona con una salsa cremosa de camarones, creando una experiencia culinaria irresistible.",
+        "category": "Pescados",
+        "price": "51500",
+        "image": "./images/menu-items/pescados/salmon-en-salsa-de-camarones.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015543",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015543",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015543",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015543"
+        }
+    },
+    { 
+        "id": 215,
+        "name": "Salmón Marinero",
+        "description": "Salmón marinero en una mezcla de aceite de oliva, hierbas y cítricos, creando un sabor fresco y ligero.",
+        "category": "Pescados",
+        "price": "52500",
+        "image": "",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla"
         }
     }
 ]
