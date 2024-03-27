@@ -26,23 +26,24 @@ interface NewMenuProps {
 const NewMenu: React.FC<NewMenuProps> = ({ selectedItemName }) => {
     const [category, setCategory] = useState('Hamburguesas');
     const [isMenuActive, setMenuActive] = useState(false);
-    const swiperRef = useRef(null);
     const [activeComponent, setActiveComponent] = useState(<SeeMenu category={category} selectedItemName={selectedItemName} />);
     const handleClick = () => {
         setMenuActive(!isMenuActive);
     };
-    const [activeButton, setActiveButton] = useState('Primera página');
     const handleTitleClick = () => {
         setMenuActive(false);
     }
 
+    // En caso que esos hijueputas se pongan cansones y quieran que al elegir una categoría x de bebidas, el título lo especifique, 
+    // dejar el h2 dentro del setActiveComponent y cambiar la estructura en drinksSelector.tsx. -Tomás
     const handleClickCategory = (categoryName) => {
         if (categoryName === 'Bebidas') {
             setCategory('Bebidas');
-            setActiveComponent(<DrinkSelector />);
+            setActiveComponent(<DrinkSelector selectedItemName={selectedItemName} />);
         } else {
             setCategory(categoryName);
-            setActiveComponent(<SeeMenu category={category} selectedItemName={selectedItemName} />);
+            setActiveComponent(<SeeMenu category={categoryName} selectedItemName={selectedItemName} />);
+            console.log(categoryName);
         }
         handleClick();
     };
