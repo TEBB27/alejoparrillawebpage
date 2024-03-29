@@ -403,7 +403,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 90vh;
+    height: auto;
 }
 
 /*Definición de sección actualizada de Menú*/
