@@ -413,6 +413,7 @@
     padding: 0% 30%;
     padding-top: 12vh;
     margin: 0vh;
+    padding-bottom: 10vh;
 }
 
 .newMenu h1 {
@@ -425,7 +426,7 @@
 
 .newMenu_container {
     display: grid;
-    grid-template-columns: repeat(, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
 }
@@ -610,6 +611,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
+    padding: 10px;
 }
 
 .show {
@@ -661,6 +663,7 @@
     width: 11.5vw;
     background-color: var(--color-our-blue);
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .newMenu_card h3 {
@@ -681,7 +684,8 @@
     align-items: center;
     margin: auto;
 }
-.drinks{
+
+.drinks {
     padding: 0% 0%;
     background: none;
     align-items: center;
@@ -694,6 +698,7 @@
     padding: 1vh 1vh;
     border-radius: 20px;
 }
+
 .animated_title {
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
@@ -702,6 +707,7 @@
 .animated_title:hover {
     transform: scale(1.05);
 }
+
 .swiper_controls {
     display: flex;
     justify-content: right;
