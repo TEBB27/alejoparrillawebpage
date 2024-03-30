@@ -37,7 +37,7 @@ function Sobrenosotros({ selectedItemId }: SobrenosotrosProps) {
             </div>
           </div>
 
-          <div className="sobre-nosotros-container-item box-sizing-width-padding_SN" style={{backgroundImage: "url('./images/Imagen-interior.webp')"}}></div>
+          <div className="sobre-nosotros-container-item box-sizing-width-padding_SN" style={{ backgroundImage: "url('./images/Imagen-interior.webp')" }}></div>
         </div>
       </div>
 

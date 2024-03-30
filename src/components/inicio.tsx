@@ -35,12 +35,12 @@ export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) =>
                     </div>
 
                     <div className="button-container">
-                        <button className="main-button" onClick={() => handleLinkClick('Menú')}>Menú en línea</button>
+                        <a className="main-button" href="menu.html">Menú en línea</a>
                         <button className="second-button" onClick={() => window.location.href = restaurantLink}>Pide ya</button>
                     </div>
                 </div>
                 <div className="column has-image">
-                    <img src='./images/inicio/imagen-conjunta-2.webp' alt="Descriptive text" style={{borderRadius:'10% 20%'}} className="restaurant_image main_image" />
+                    <img src='./images/inicio/imagen-conjunta-2.webp' alt="Descriptive text" style={{ borderRadius: '10% 20%' }} className="restaurant_image main_image" />
                 </div>
             </div>
 
@@ -49,20 +49,20 @@ export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) =>
                     <h2 className='title_alt_IN'>Conoce sobre nosotros</h2>
                     <div className="line">
                         <p style={{ color: 'white' }}>
-                        Alejo Parrilla es un lugar para compartir momentos especiales con tus seres queridos. Ofrecemos un ambiente cálido y acogedor, con un servicio atento y personalizado.
+                            Alejo Parrilla es un lugar para compartir momentos especiales con tus seres queridos. Ofrecemos un ambiente cálido y acogedor, con un servicio atento y personalizado.
                         </p>
-                        <button className="third-button" onClick={() => handleLinkClick('Nosotros')}>Sobre Nosotros</button>
+                        <a className="third-button" href="nosotros.html">Sobre Nosotros</a>
                     </div>
 
                 </div>
                 <div className="column has-image">
-                    <img src='./images/inicio/imagen-conjunta.webp' style={{borderRadius:'20% 10%'}} alt='Imagen de hamburguesa representativa' className="restaurant_image" />
+                    <img src='./images/inicio/imagen-conjunta.webp' style={{ borderRadius: '20% 10%' }} alt='Imagen de hamburguesa representativa' className="restaurant_image" />
                 </div>
             </div>
 
             <div className="container third">
                 <div className="column has-image">
-                    <img src='./images/inicio/imagen-seccion-menu.webp' style={{borderRadius:'10% 20%'}} alt='Parrilla yummy' className="restaurant_image" />
+                    <img src='./images/inicio/imagen-seccion-menu.webp' style={{ borderRadius: '10% 20%' }} alt='Parrilla yummy' className="restaurant_image" />
                 </div>
                 <div className="column">
                     <h2 className='title_alt_IN'>Nuestro menú</h2>
@@ -70,7 +70,7 @@ export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) =>
                         <p style={{ color: 'white' }}>
                             Nuestro menu tiene diferentes variedades de platos distribuidos entre carnes, pescados, comidas rapidas, bolws y demas.
                         </p>
-                        <button className="third-button" onClick={() => handleLinkClick('Menú')}>Menu en linea</button>
+                        <a className="third-button" href="menu.html">Menu en linea</a>
                     </div>
 
                 </div>

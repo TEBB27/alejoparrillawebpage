@@ -1,4 +1,4 @@
-import {  useState } from 'react';
+import { useState } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./NavBar.css";
 import logo from "../assets/LOGOO-300x114.png";
@@ -9,19 +9,19 @@ const VIEWS = ['Inicio', 'Nosotros', 'Menú', 'Contacto'];
 
 
 
-function Navbar({ 
-    setView, 
-    selectedItem, 
-    setSelectedItem, 
-    restaurantes 
-  }: { 
-    setView: (view: string) => void, 
-    selectedItem: { id: number; label: string } | undefined, 
+function Navbar({
+    setView,
+    selectedItem,
+    setSelectedItem,
+    restaurantes
+}: {
+    setView: (view: string) => void,
+    selectedItem: { id: number; label: string } | undefined,
     setSelectedItem: (item: { id: number; label: string } | undefined) => void,
     restaurantes: { id: number; label: string }[]
-  }) {
+}) {
 
-    
+
     //Estas constantes manejan el estado del menú de hamburguesa en mobile
     const [isOpen, setIsOpen] = useState(false);
 
@@ -49,6 +49,13 @@ function Navbar({
         }
     };
 
+    const LINKS = [
+        { view: 'Inicio', url: 'inicio.html' },
+        { view: 'Nosotros', url: 'nosotros.html' },
+        { view: 'Menú', url: 'menu.html' },
+        { view: 'Contacto', url: 'contacto.html' },
+    ];
+
 
     return (
         <header className="header">
@@ -57,15 +64,15 @@ function Navbar({
             </div>
             <nav className={`header__nav ${isOpen ? 'open' : ''}`}>
                 <ul className="header__nav-list">
-                    {VIEWS.map(view => (
-                        <li key={view} className="header__nav-item">
-                            <a onClick={() => handleLinkClick(view)} className="header__nav-link">{view}</a>
+                    {LINKS.map(link => (
+                        <li key={link.view} className="header__nav-item">
+                            <a href={link.url} className="header__nav-link">{link.view}</a>
                         </li>
                     ))}
                 </ul>
                 <div className={`dropdown ${isSelectRestaurantOpen ? 'with-body' : ''}`}>
                     <div className='dropdown-header' onClick={toggleDropdown}>
-                    <i className="fas fa-map-marker-alt" aria-hidden="true"></i>
+                        <i className="fas fa-map-marker-alt" aria-hidden="true"></i>
                         {selectedItem ? items.find(item => item.id === selectedItem?.id)?.label : "Ubicaciones"}
                         <i className={`fa fa-chevron-right icon ${isSelectRestaurantOpen && "open"}`}></i>
                     </div>
@@ -80,7 +87,7 @@ function Navbar({
                                 {item.label}
                             </div>
                         ))}
-                        
+
                     </div>
                 </div>
                 <button className="header__nav-close-button" onClick={handleToggle}>
