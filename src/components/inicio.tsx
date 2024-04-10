@@ -1,4 +1,5 @@
 import "./Styles.css";
+import React, { useState } from 'react';
 
 export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) => void, selectedItemId: number | null; }): JSX.Element => {
 
@@ -25,6 +26,25 @@ export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) =>
         default:
             restaurantLink = 'https://www.rappi.com.co/restaurantes/delivery/25071-alejo-parrilla';
     }
+    
+    const SecondButton = () => {
+        const [isOpen, setIsOpen] = React.useState(false);
+        const toggleMenu = () => {
+            setIsOpen(!isOpen);
+        };
+        if (selectedItemId == 4) {
+            return(
+                <div style={{display: "flex", flexDirection:'row', justifyContent:'space-evenly'}}>
+                    <button style={{margin: '0 4px'}} className="second-button" onClick={() => window.open(restaurantLink, '_blank')}>Rappi</button>
+                    <button style={{margin: '0 4px'}} className="second-button" onClick={() => window.open('https://wa.me/+573214607611', '_blank')}>Domicilios</button>
+                </div>
+            );
+    }else{
+        return(
+            <button className="second-button" onClick={() => window.open(restaurantLink, '_blank')}>Pide en línea</button>
+        );
+    }
+}
 
     return (
         <div>
@@ -36,7 +56,7 @@ export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) =>
 
                     <div className="button-container">
                         <button className="main-button" onClick={() => handleLinkClick('Menú')}>Menú en línea</button>
-                        <button className="second-button" onClick={() => window.location.href = restaurantLink}>Pide ya</button>
+                        <SecondButton/>
                     </div>
                 </div>
                 <div className="column has-image">
