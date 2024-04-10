@@ -28,10 +28,6 @@ export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) =>
     }
     
     const SecondButton = () => {
-        const [isOpen, setIsOpen] = React.useState(false);
-        const toggleMenu = () => {
-            setIsOpen(!isOpen);
-        };
         if (selectedItemId == 4) {
             return(
                 <div style={{display: "flex", flexDirection:'row', justifyContent:'space-evenly'}}>
