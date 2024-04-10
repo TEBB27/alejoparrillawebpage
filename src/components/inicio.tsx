@@ -1,5 +1,4 @@
 import "./Styles.css";
-import React, { useState } from 'react';
 
 export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) => void, selectedItemId: number | null; }): JSX.Element => {
 
