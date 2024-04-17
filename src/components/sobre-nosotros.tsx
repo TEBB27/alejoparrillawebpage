@@ -26,11 +26,11 @@ function Sobrenosotros({ selectedItemId }: SobrenosotrosProps) {
                   <p>Restaurantes</p>
                 </div>
                 <div className="info-card">
-                  <h2 className="subtitle">35+</h2>
+                  <h2 className="subtitle">60+</h2>
                   <p>Platos</p>
                 </div>
                 <div className="info-card">
-                  <h2 className="subtitle">54+</h2>
+                  <h2 className="subtitle">45+</h2>
                   <p>Empleados</p>
                 </div>
               </div>

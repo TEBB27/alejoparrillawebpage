@@ -1048,7 +1048,7 @@
         "description": "Tierna carne de res en salsa pomodoro, mozzarella fresca y albahaca.",
         "category": "Parrilla",
         "price": "43900",
-        "image": "",
+        "image": "./images/menu-items/parrilla/baby-napolitano.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "Por definir",
