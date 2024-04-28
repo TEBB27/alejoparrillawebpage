@@ -29,14 +29,18 @@ export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) =>
     const SecondButton = () => {
         if (selectedItemId == 4) {
             return(
-                <div style={{display: "flex", flexDirection:'row', justifyContent:'space-evenly'}}>
-                    <button style={{margin: '0 4px'}} className="second-button" onClick={() => window.open(restaurantLink, '_blank')}>Rappi</button>
-                    <button style={{margin: '0 4px'}} className="second-button" onClick={() => window.open('https://wa.me/+573214607611', '_blank')}>Domicilios</button>
+                <div className="button-container">
+                    <button className="main-button" onClick={() => handleLinkClick('Menú')}>Menú en línea</button>
+                    <button style={{margin: '0 4px', minWidth:'20px'}} className="second-button" onClick={() => window.open(restaurantLink, '_blank')}>Rappi</button>
+                    <button style={{margin: '0 4px', minWidth:'20px'}} className="second-button" onClick={() => window.open('https://wa.me/+573214607611', '_blank')}>Domicilios</button>
                 </div>
             );
     }else{
         return(
-            <button className="second-button" onClick={() => window.open(restaurantLink, '_blank')}>Pide en línea</button>
+            <div className="button-container">
+                <button className="main-button" onClick={() => handleLinkClick('Menú')}>Menú en línea</button>
+                <button className="second-button" onClick={() => window.open(restaurantLink, '_blank')}>Pide en línea</button>
+            </div>
         );
     }
 }
@@ -48,11 +52,7 @@ export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) =>
                     <div>
                         <h1 className="title">Tu parrilla, AlejoParilla</h1>
                     </div>
-
-                    <div className="button-container">
-                        <button className="main-button" onClick={() => handleLinkClick('Menú')}>Menú en línea</button>
                         <SecondButton/>
-                    </div>
                 </div>
                 <div className="column has-image">
                     <img src='./images/inicio/imagen-conjunta-2.webp' alt="Descriptive text" style={{borderRadius:'10% 20%'}} className="restaurant_image main_image" />
