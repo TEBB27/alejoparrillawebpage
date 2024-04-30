@@ -585,6 +585,21 @@
         }
     },
     {
+        "id": 73,
+        "name": "Jugo de Maracuyá en Leche",
+        "description": "Jugo de maracuyá en leche.",
+        "category": "Bebidas en leche",
+        "price": "6400",
+        "image": "./images/menu-items/bebidas/jugo-de-maracuya.webp",
+        "is_available": false,
+        "locations": {
+            "Diver Plaza": "https://www.rappi.com.co/restaurantes/900043120-alejo-parrilla?productDetail=2091015587",
+            "Nuestro Bogotá": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015587",
+            "Buró 25": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015587",
+            "Fontibón": "https://www.rappi.com.co/restaurantes/900043122-alejo-parrilla?productDetail=2091015587"
+        }
+    },
+    {
         "id": 74,
         "name": "Jugo de Guanabana en Agua",
         "description": "Jugo de guanabana en agua.",
@@ -618,7 +633,7 @@
         "id": 76,
         "name": "Jugo de Mandarina",
         "description": "temporal 16oz",
-        "category": "Bebidas en agua",
+        "category": "En lata o botella",
         "price": "8400",
         "image": "./images/menu-items/bebidas/jugo-de-mandarina.webp",
         "is_available": false,
