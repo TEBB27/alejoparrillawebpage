@@ -1367,7 +1367,7 @@
         "description": "Frescura en cada bocado. Piel dorada y crujiente, carne suave y sabrosa. ¡Un festín para tus sentidos!",
         "category": "Pescados",
         "price": "40900",
-        "image": "./images/menu-items/pescados/trucha-a-la-placha.webp",
+        "image": "./images/menu-items/pescados/trucha-a-la-plancha.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015526",
@@ -1472,7 +1472,7 @@
         "description": "Salmón a la parrilla dorado y un toque ahumado irresistible.",
         "category": "Pescados",
         "price": "45900",
-        "image": "",
+        "image": "./images/menu-items/pescados/salmon-a-la-parrilla.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla",
@@ -1487,7 +1487,7 @@
         "description": " Salmón marinado bañado en una salsa de maracuyá.",
         "category": "Pescados",
         "price": "48500",
-        "image": "",
+        "image": "./images/menu-items/pescados/salmon-a-la-maracuya.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla?productDetail=2091015546",
@@ -1517,7 +1517,7 @@
         "description": "Salmón marinero en una mezcla de aceite de oliva, hierbas y cítricos, creando un sabor fresco y ligero.",
         "category": "Pescados",
         "price": "52500",
-        "image": "",
+        "image": "./images/menu-items/pescados/salmon-marinero.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "https://www.rappi.com.co/restaurantes/900248801-alejo-parrilla",
