@@ -29,11 +29,11 @@ export const Inicio = ({ setView, selectedItemId }: { setView: (view: string) =>
     const SecondButton = () => {
         if (selectedItemId == 4) {
             return(
-                <div className="button-container">
-                    <button className="main-button" onClick={() => handleLinkClick('Menú')}>Menú en línea</button>
-                    <button style={{margin: '0 4px', minWidth:'20px'}} className="second-button" onClick={() => window.open(restaurantLink, '_blank')}>Rappi</button>
-                    <button style={{margin: '0 4px', minWidth:'20px'}} className="second-button" onClick={() => window.open('https://wa.me/+573214607611', '_blank')}>Domicilios</button>
-                </div>
+                <div className="button-container" style={{ display: 'flex', flexWrap: 'wrap' }}>
+  <button className="main-button" style={{ flexGrow: 1, minWidth: '100px' }} onClick={() => handleLinkClick('Menú')}>Menú en línea</button>
+  <button style={{ margin: '0 4px', minWidth: '50px', flexGrow: 1 }} className="second-button" onClick={() => window.open(restaurantLink, '_blank')}>Rappi</button>
+  <button style={{ margin: '0 4px', minWidth: '50px', flexGrow: 1 }} className="second-button" onClick={() => window.open('https://wa.me/+573214607611', '_blank')}>Domicilios</button>
+</div>
             );
     }else{
         return(
