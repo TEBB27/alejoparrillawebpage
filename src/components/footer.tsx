@@ -40,7 +40,7 @@ const Footer = ({ setView }:{setView: (view: string) => void}) => {
             </div>
             <div className="column">
                 <iframe width="300" height="220" loading="lazy"
-                    src="https://www.google.com/maps/embed/v1/search?q=alejoparrilladiverplaza,alejoparrillafontibon,alejoparrillanuestrobogota,alejoparrillaburó25&key=AIzaSyCzuFvJ5puhXUY7QnkqzYixNKDG-AM2FM4">
+                    src="https://www.google.com/maps/embed/v1/search?q=alejoparrilladiverplaza,alejoparrillafontibon,alejoparrillanuestrobogota,alejoparrillaburó25&key=AIzaSyC9m19l4w5J6rpRdsXgFDvuCMDERbqQ5WQ">
                 </iframe>
             </div>
         </div>
