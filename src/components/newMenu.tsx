@@ -3,39 +3,103 @@
 import "./Styles.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleChevronRight, faCircleChevronLeft } from '@fortawesome/free-solid-svg-icons';
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import SeeMenu from "./seeMenu";
-import DrinkSelector from "./drinksSelector";
 import { Swiper, SwiperSlide } from '../../node_modules/swiper/swiper-react';
 import '../../node_modules/swiper/swiper.min.css';
 import '../../node_modules/swiper/swiper-bundle.css';
 import '../../node_modules/swiper/modules/effect-cube.min.css';
 import categories from '../../src/json/categories.json';
 
-interface category {
+interface Category {
     id: number;
     name: string;
     description: string;
     image: string;
 }
-
 interface NewMenuProps {
     selectedItemName: string | null;
+}
+interface DrinkSubCategory {
+    id: number;
+    name: string;
+    description: string;
+    image: string;
+}
+interface DrinkSelectorProps {
+    selectedItemName: string | null;
+    drinksComponent: React.ReactNode;
+    handleClickSubCategory: (subCategory: DrinkSubCategory) => void;
 }
 
 const NewMenu: React.FC<NewMenuProps> = ({ selectedItemName }) => {
     const [category, setCategory] = useState('Hamburguesas');
     const [isMenuActive, setMenuActive] = useState(false);
-    const [activeComponent, setActiveComponent] = useState(<SeeMenu category={category} selectedItemName={selectedItemName} />);
+    const [activeComponent, setActiveComponent] = useState<React.ReactNode | null>(null);
+    const [drinksComponent, setDrinksComponent] = useState<React.ReactNode | null>(null);
+    const [initialDrinksComponent, setInitialDrinksComponent] = useState(null);
+
+    useEffect(() => {
+        const drinkCategory = categories.find(category => category.name === 'Bebidas');
+
+        if (drinkCategory && drinkCategory.subcategories) {
+            const subCategoriesComponent = (
+                <div className="newMenu_container drinks">
+                    {drinkCategory.subcategories.map((subCategory) => (
+                        <div
+                            key={subCategory.id}
+                            className="newMenu_categoryCard"
+                            style={{ backgroundImage: `url(${subCategory.image})` }}
+                            onClick={() => handleClickSubCategory(subCategory)}
+                        >
+                            <div className="newMenu_categoryCard newMenu_animateUp" >
+                                <h2>{subCategory.name}</h2>
+                                <p>{subCategory.description}</p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            );
+
+            setDrinksComponent(subCategoriesComponent);
+            setInitialDrinksComponent(subCategoriesComponent);
+        }
+    }, []);
+
+
+    const handleClickSubCategory = (subCategory: DrinkSubCategory): void => {
+        setDrinksComponent(<SeeMenu category={subCategory.name} selectedItemName={selectedItemName} />);
+    };
+
+    const DrinkSelector: React.FC<DrinkSelectorProps> = ({ selectedItemName, drinksComponent, handleClickSubCategory }) => {
+        return (
+            <div>
+                {drinksComponent !== undefined ? drinksComponent : initialDrinksComponent}
+            </div>
+        );
+    }
+
+    useEffect(() => {
+        if (category === 'Bebidas') {
+            setActiveComponent(<DrinkSelector selectedItemName={selectedItemName} drinksComponent={drinksComponent} handleClickSubCategory={handleClickSubCategory} />);
+        } else {
+            setActiveComponent(<SeeMenu category={category} selectedItemName={selectedItemName} />);
+        }
+    }, [category, drinksComponent]);
+
     const handleClick = () => {
+        if (drinksComponent !== undefined) {
+            setDrinksComponent(undefined);
+        } else {
         setMenuActive(!isMenuActive);
+        }
+
     };
     const handleTitleClick = () => {
         setMenuActive(false);
+        setDrinksComponent(initialDrinksComponent);
     }
 
-    // En caso que esos hijueputas se pongan cansones y quieran que al elegir una categoría x de bebidas, el título lo especifique, 
-    // dejar el h2 dentro del setActiveComponent y cambiar la estructura en drinksSelector.tsx. -Tomás
     const handleClickCategory = (categoryName) => {
         if (categoryName === 'Bebidas') {
             setCategory('Bebidas');
@@ -43,9 +107,9 @@ const NewMenu: React.FC<NewMenuProps> = ({ selectedItemName }) => {
         } else {
             setCategory(categoryName);
             setActiveComponent(<SeeMenu category={categoryName} selectedItemName={selectedItemName} />);
-            console.log(categoryName);
         }
         handleClick();
+        console.log(categoryName);
     };
 
     return (
@@ -80,5 +144,6 @@ const NewMenu: React.FC<NewMenuProps> = ({ selectedItemName }) => {
         </div>
     );
 }
+
 
 export default NewMenu;
