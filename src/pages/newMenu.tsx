@@ -1,10 +1,10 @@
 // @ts-nocheck
 
-import "./Styles.css";
+import "../components/Styles.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleChevronRight, faCircleChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { useRef, useState, useEffect } from 'react';
-import SeeMenu from "./seeMenu";
+import SeeMenu from "../components/seeMenu";
 import { Swiper, SwiperSlide } from '../../node_modules/swiper/swiper-react';
 import '../../node_modules/swiper/swiper.min.css';
 import '../../node_modules/swiper/swiper-bundle.css';
@@ -91,7 +91,7 @@ const NewMenu: React.FC<NewMenuProps> = ({ selectedItemName }) => {
         if (drinksComponent !== undefined) {
             setDrinksComponent(undefined);
         } else {
-        setMenuActive(!isMenuActive);
+            setMenuActive(!isMenuActive);
         }
 
     };

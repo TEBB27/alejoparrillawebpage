@@ -1,15 +1,13 @@
-import "./Styles.css";
-import Carousel from "./carousel";
-import CarouselUpToDown from "./swiperMision";
-import VisionComponent from "./VisonCard";
-import FilosofiaGallery from "./FilosofiaGallery";
+import "../components/Styles.css";
+import Carousel from "../components/carousel";
+import CarouselUpToDown from "../components/swiperMision";
+import VisionComponent from "../components/VisonCard";
+import FilosofiaGallery from "../components/FilosofiaGallery";
+import { useRestaurant } from '../context/RestaurantContext'; // Importa el hook personalizado
 
-interface SobrenosotrosProps {
-  selectedItemId: number | null;
-}
+function Sobrenosotros() {
+  const { selectedItem } = useRestaurant(); // Usamos el contexto para obtener el restaurante seleccionado
 
-
-function Sobrenosotros({ selectedItemId }: SobrenosotrosProps) {
   return (
     <div className="overflow_hidden_SN">
       <div className="landing minHeight_paddingTop_SN landing_nosotros second">
@@ -37,7 +35,7 @@ function Sobrenosotros({ selectedItemId }: SobrenosotrosProps) {
             </div>
           </div>
 
-          <div className="sobre-nosotros-container-item box-sizing-width-padding_SN" style={{backgroundImage: "url('./images/Imagen-interior.webp')"}}></div>
+          <div className="sobre-nosotros-container-item box-sizing-width-padding_SN" style={{ backgroundImage: "url('./images/Imagen-interior.webp')" }}></div>
         </div>
       </div>
 
@@ -62,7 +60,7 @@ function Sobrenosotros({ selectedItemId }: SobrenosotrosProps) {
       {/* Quinta Sección */}
       <div id="nuestros_restaurantes_container" className="second Nuestros_restaurantes_container">
         <h2 id='nuestros_restaurantes_title' className="title_alt orange_center_text">Nuestros restaurantes</h2>
-        <Carousel selectedItemId={selectedItemId} />
+        <Carousel selectedItemId={selectedItem ? selectedItem.id : null} />
       </div>
     </div>
   );

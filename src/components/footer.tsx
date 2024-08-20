@@ -1,16 +1,10 @@
 import './Footer.css';
-
+import { Link } from 'react-router-dom';
 import logo from '../assets/LOGOO-300x114.png';
 import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
 import rappi from '../assets/rappi.svg';
 
-
-const Footer = ({ setView }:{setView: (view: string) => void}) => {
-      
-    const handleLinkClick = (view: string) => {
-        setView(view);
-        window.scrollTo(0, 0);
-    };
+const Footer = () => {
     return (
         <div className="footer">
             <div className="column logo-column">
@@ -34,9 +28,16 @@ const Footer = ({ setView }:{setView: (view: string) => void}) => {
                         <span>¿Tienes algo que contarnos?</span>
                     </a>
                 </div>
-                <p onClick={() => handleLinkClick('Contacto')} style={{cursor:"pointer"}}>Tu opinión nos importa, ¡contáctanos!</p>
-                <p onClick={() => handleLinkClick('Contacto')} style={{cursor:"pointer"}}>¡Únete a nosotros!</p>
-                
+                <p>
+                    <Link to="/contacto" onClick={() => window.scrollTo(0, 0)} style={{ color: 'inherit', textDecoration: 'none', cursor: 'pointer' }}>
+                        Tu opinión nos importa, ¡contáctanos!
+                    </Link>
+                </p>
+                <p>
+                    <Link to="/contacto" onClick={() => window.scrollTo(0, 0)} style={{ color: 'inherit', textDecoration: 'none', cursor: 'pointer' }}>
+                        ¡Únete a nosotros!
+                    </Link>
+                </p>
             </div>
             <div className="column">
                 <iframe width="300" height="220" loading="lazy"

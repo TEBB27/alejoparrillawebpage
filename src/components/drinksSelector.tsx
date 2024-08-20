@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import categories from '../../src/json/categories.json';
-import SeeMenu from "./seeMenu";
+import SeeMenu from './seeMenu';
 
 interface DrinkSubCategory {
     id: number;
