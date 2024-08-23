@@ -1,15 +1,28 @@
 [
-  {
-    "id": 1,
-    "name": "Hamburguesas",
-    "description": "Deliciosas hamburguesas con carne de res de alta calidad.",
-    "imagePath": "./images/menu_categories/hamburguesas.webp"
-  },
+
   {
     "id": 2,
     "name": "Parrilla",
     "description": "Cortes de carne a la parrilla, jugosos y llenos de sabor.",
     "imagePath": "./images/menu_categories/parrilla.webp"
+  },
+  {
+    "id": 7,
+    "name": "Típicos",
+    "description": "Platos típicos llenos de tradición y sabor auténtico.",
+    "imagePath": "./images/menu_categories/tipicos.webp"
+  },
+  {
+    "id": 10,
+    "name": "Pescados",
+    "description": "Pescados frescos y deliciosos, preparados de diferentes maneras.",
+    "imagePath": "./images/menu_categories/pescados.webp"
+},
+  {
+    "id": 1,
+    "name": "Hamburguesas",
+    "description": "Deliciosas hamburguesas con carne de res de alta calidad.",
+    "imagePath": "./images/menu_categories/hamburguesas.webp"
   },
   {
     "id": 3,
@@ -29,6 +42,20 @@
     "description": "Sopas calientes y reconfortantes, perfectas para un día frío.",
     "imagePath": "./images/menu_categories/sopas.webp"
   },
+  
+  {
+    "id": 8,
+    "name": "Menú Infantil",
+    "description": "Comidas divertidas y nutritivas para los más pequeños.",
+    "imagePath": "./images/menu_categories/menu_infantil.webp"
+  },
+  {
+    "id": 9,
+    "name": "Bowls",
+    "description": "Bowls saludables y llenos de ingredientes frescos y nutritivos.",
+    "imagePath": "./images/menu_categories/bowls.webp"
+    }
+    ,
   {
     "id": 6,
     "name": "Bebidas",
@@ -49,34 +76,10 @@
       },
       {
         "id": 3,
-        "name": "En lata o botella",
+        "name": "Otras Bebidas",
         "description": "Deliciosas limonadas naturales y con sabor.",
         "image": "./images/menu_categories/bebidas.webp"
       }
     ]
-  },
-  {
-    "id": 7,
-    "name": "Típicos",
-    "description": "Platos típicos llenos de tradición y sabor auténtico.",
-    "imagePath": "./images/menu_categories/tipicos.webp"
-  },
-  {
-    "id": 8,
-    "name": "Menú Infantil",
-    "description": "Comidas divertidas y nutritivas para los más pequeños.",
-    "imagePath": "./images/menu_categories/menu_infantil.webp"
-  },
-  {
-    "id": 9,
-    "name": "Bowls",
-    "description": "Bowls saludables y llenos de ingredientes frescos y nutritivos.",
-    "imagePath": "./images/menu_categories/bowls.webp"
-    },
-    {
-      "id": 10,
-      "name": "Pescados",
-      "description": "Pescados frescos y deliciosos, preparados de diferentes maneras.",
-      "imagePath": "./images/menu_categories/pescados.webp"
   }
 ]

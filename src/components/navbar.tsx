@@ -1,93 +1,68 @@
 import { useState } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 import "./NavBar.css";
 import logo from "../assets/LOGOO-300x114.png";
-import '@fortawesome/fontawesome-free/css/all.min.css';
 import FloatingButton from './FloatingButton';
+import { useRestaurant } from '../context/RestaurantContext';
+import { Restaurant } from '../types/restaurant';
 
-const VIEWS = ['Inicio', 'Nosotros', 'Menú', 'Contacto'];
+function Navbar() {
+    const { selectedItem, setSelectedItem, restaurantes } = useRestaurant();
 
-
-
-function Navbar({
-    setView,
-    selectedItem,
-    setSelectedItem,
-    restaurantes
-}: {
-    setView: (view: string) => void,
-    selectedItem: { id: number; label: string } | undefined,
-    setSelectedItem: (item: { id: number; label: string } | undefined) => void,
-    restaurantes: { id: number; label: string }[]
-}) {
-
-
-    //Estas constantes manejan el estado del menú de hamburguesa en mobile
     const [isOpen, setIsOpen] = useState(false);
+    const [isSelectRestaurantOpen, setIsSelectRestaurantOpen] = useState(false);
 
     const handleToggle = () => {
         setIsOpen(!isOpen);
     };
 
-    //Estas constantes manejan el estado del desplegable de restaurantes
-    const [isSelectRestaurantOpen, setIsSelectRestaurantOpen] = useState(false);
-    const [items] = useState(restaurantes);
+    const toggleDropdown = () => {
+        setIsSelectRestaurantOpen(!isSelectRestaurantOpen);
+    };
 
-    const toggleDropdown = () => setIsSelectRestaurantOpen(!isSelectRestaurantOpen);
-
-    const handleItemClick = (item: { id: number; label: string } | undefined) => {
+    const handleItemClick = (item: Restaurant) => {
         setSelectedItem(item);
         toggleDropdown();
     };
 
-    const handleLinkClick = (view: string) => {
-        setView(view);
-        handleToggle();
-        window.scrollTo(0, 0);
-        if (window.innerWidth > 768) {
-            setIsOpen(false);
-        }
-    };
-
-    const LINKS = [
-        { view: 'Inicio', url: 'inicio.html' },
-        { view: 'Nosotros', url: 'nosotros.html' },
-        { view: 'Menú', url: 'menu.html' },
-        { view: 'Contacto', url: 'contacto.html' },
-    ];
-
-
     return (
         <header className="header">
             <div className="header__logo">
-                <img className="logo" src={logo} alt="Logo" />
+                <img className="logo" src={logo} alt="Alejoparrilla's logo" />
             </div>
             <nav className={`header__nav ${isOpen ? 'open' : ''}`}>
                 <ul className="header__nav-list">
-                    {LINKS.map(link => (
-                        <li key={link.view} className="header__nav-item">
-                            <a href={link.url} className="header__nav-link">{link.view}</a>
-                        </li>
-                    ))}
+                    <li className="header__nav-item">
+                        <Link to="/" className="header__nav-link" onClick={handleToggle}>Inicio</Link>
+                    </li>
+                    <li className="header__nav-item">
+                        <Link to="/nosotros" className="header__nav-link" onClick={handleToggle}>Nosotros</Link>
+                    </li>
+                    <li className="header__nav-item">
+                        <Link to="/menu" className="header__nav-link" onClick={handleToggle}>Menú</Link>
+                    </li>
+                    <li className="header__nav-item">
+                        <Link to="/contacto" className="header__nav-link" onClick={handleToggle}>Contacto</Link>
+                    </li>
                 </ul>
                 <div className={`dropdown ${isSelectRestaurantOpen ? 'with-body' : ''}`}>
                     <div className='dropdown-header' onClick={toggleDropdown}>
                         <i className="fas fa-map-marker-alt" aria-hidden="true"></i>
-                        {selectedItem ? items.find(item => item.id === selectedItem?.id)?.label : "Ubicaciones"}
+                        {selectedItem ? selectedItem.label : "SELECCIONAR"}
                         <i className={`fa fa-chevron-right icon ${isSelectRestaurantOpen && "open"}`}></i>
                     </div>
                     <div className={`dropdown-body ${isSelectRestaurantOpen && 'open'}`}>
-                        {items.map(item => (
+                        {restaurantes.map((item: Restaurant) => (
                             <div
                                 className="dropdown-item"
                                 onClick={() => handleItemClick(item)}
-                                key={item.id.toString()}
+                                key={item.id}
                             >
                                 <span className={`dropdown-item-dot ${item.id === selectedItem?.id && 'selected'}`}>• </span>
                                 {item.label}
                             </div>
                         ))}
-
                     </div>
                 </div>
                 <button className="header__nav-close-button" onClick={handleToggle}>
@@ -98,8 +73,8 @@ function Navbar({
                 <FaBars />
             </button>
             {!isOpen && <FloatingButton />}
-        </header >
-    )
+        </header>
+    );
 }
 
 export default Navbar;

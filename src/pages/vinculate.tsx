@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import "./Styles.css";
+import "../components/Styles.css";
 import { Widget } from '@typeform/embed-react';
 
 function useWindowDimensions() {

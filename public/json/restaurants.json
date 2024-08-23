@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Diver Plaza",
-        "phone": "3138190838",
+        "phone": "3214607611",
         "address" : "Transversal 99 #70a-89, local 355.",
         "image":"./images/restaurants/alejo-parrilla-restaurante-diver-plaza.webp",
         "schedule": "Lunes a Domingo de 11:30 am a 8:45 pm.",
@@ -36,7 +36,7 @@
         "phone": "3214607611",
         "address" : "Cl. 25g #99-35, Bogotá.",
         "image":"./images/restaurants/alejo-parrilla-restaurante-fontibon.webp",
-        "schedule": "Lunes a Domingo de 11:30 am a 5:00 pm.",
+        "schedule": "Lunes a Sábado de 11:30 am a 5:00 pm.",
         "url": "https://maps.app.goo.gl/ec2QJUCJskixFY578",
         "is_selected": false
     }
