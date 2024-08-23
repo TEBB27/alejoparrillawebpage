@@ -1183,7 +1183,7 @@
         "description": "Crujiente y dorada por fuera, jugosa y tierna por dentro. La pechuga apanada, un clásico irresistible.",
         "category": "Parrilla",
         "price": "36900",
-        "image": "./images/menu-items/parrilla/pechuga-apanada.webp",
+        "image": "./images/menu-items/tipicos/chuleta-valluna.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "Por definir",
