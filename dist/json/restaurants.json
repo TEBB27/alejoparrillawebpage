@@ -2,9 +2,9 @@
     {
         "id": 1,
         "name": "Diver Plaza",
-        "phone": "3504746586",
+        "phone": "3214607611",
         "address" : "Transversal 99 #70a-89, local 355.",
-        "image":"./images/alejo-parrilla-1.jpg",
+        "image":"./images/restaurants/alejo-parrilla-restaurante-diver-plaza.webp",
         "schedule": "Lunes a Domingo de 11:30 am a 8:45 pm.",
         "url": "https://maps.app.goo.gl/8J9C7hxTaS3LjpbE7",
         "is_selected": true
@@ -14,7 +14,7 @@
         "name": "Nuestro Bogotá",
         "phone": "3214607611",
         "address" : "Cra. 86 #55a-75, Bogotá.",
-        "image":"./images/alejo-parrilla-2.jpg",
+        "image":"./images/restaurants/alejo-parrilla-restaurante-nuestro-bogota.webp",
         "schedule": "Lunes a Domingo de 11:30 am a 8:45 pm.",
         "url": "https://maps.app.goo.gl/T9eJiWSRJQnjR5jz5",
         "is_selected": false
@@ -23,9 +23,9 @@
     {
         "id": 3,
         "name": "Buró 25",
-        "phone": "3504746586",
+        "phone": "3214607611",
         "address" : "Dg. 25g #95a - 85, Bogotá.",
-        "image":"./images/alejo-parrilla-3.jpg",
+        "image":"./images/restaurants/alejo-parrilla-restaurante-buro-25.webp",
         "schedule":  "Lunes a Viernes de 11:30 am a 5:00 pm.",
         "url": "https://maps.app.goo.gl/QoUBnV93dMq7szJc8",
         "is_selected": false
@@ -33,10 +33,10 @@
     {
         "id": 4,
         "name": "Fontibón",
-        "phone": "3504746586",
+        "phone": "3214607611",
         "address" : "Cl. 25g #99-35, Bogotá.",
-        "image":"./images/alejo-parrilla-4.jpg",
-        "schedule": "Lunes a Domingo de 11:30 am a 5:00 pm.",
+        "image":"./images/restaurants/alejo-parrilla-restaurante-fontibon.webp",
+        "schedule": "Lunes a Sábado de 11:30 am a 5:00 pm.",
         "url": "https://maps.app.goo.gl/ec2QJUCJskixFY578",
         "is_selected": false
     }

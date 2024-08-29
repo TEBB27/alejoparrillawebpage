@@ -1198,7 +1198,7 @@
         "description": "Tierna pechuga con salsa de tomate, mozzarella y orégano. Un festín de sabores irresistible.",
         "category": "Parrilla",
         "price": "36900",
-        "image": "./images/menu-items/parrilla/pechuga-napolitana.webp",
+        "image": "./images/menu-items/parrilla/lomo-napolitano.webp",
         "is_available": false,
         "locations": {
             "Diver Plaza": "Por definir",
