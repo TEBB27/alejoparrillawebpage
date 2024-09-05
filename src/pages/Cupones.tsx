@@ -8,7 +8,7 @@ interface Cupon {
 }
 
 const Cupones: React.FC = () => {
-    const [cupones, setCupones] = useState<Cupon[]>([
+    const [cupones, /*setCupones*/] = useState<Cupon[]>([
         {
             correo: 'asdfe41@example.com',
             cupon: 'CUPON2024',
