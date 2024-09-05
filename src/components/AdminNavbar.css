@@ -1,0 +1,66 @@
+/* src/components/AdminNavbar.css */
+
+/* Estilos generales del navbar */
+.admin-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--color-our-orange);
+    padding: 1rem 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.admin-navbar__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-navbar__list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.admin-navbar__item {
+    position: relative;
+}
+
+.admin-navbar__link {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.admin-navbar__item:hover .admin-navbar__link {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .admin-navbar__list {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .admin-navbar__link {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .admin-navbar__link {
+        font-size: 1.2rem;
+    }
+}

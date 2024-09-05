@@ -1,0 +1,80 @@
+/* src/pages/Registrar.css */
+
+.register-container {
+    background-color: var(--color-our-beige);
+    padding: 2rem;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    font-family: var(--font-family-inter);
+}
+
+h2 {
+    color: var(--color-our-blue-dark);
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    color: var(--color-our-blue-gray);
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 0.75rem;
+    border: 2px solid var(--color-our-blue-gray);
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: var(--color-white);
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--color-our-orange);
+    box-shadow: 0 0 10px rgba(240, 156, 3, 0.3);
+}
+
+.register-button {
+    padding: 0.75rem;
+    background-color: var(--color-our-orange);
+    color: var(--color-white);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: var(--color-our-orange-light);
+    box-shadow: 0 4px 10px rgba(240, 156, 3, 0.5);
+}
+
+@media (max-width: 768px) {
+    .register-container {
+        padding: 1.5rem;
+    }
+
+    .register-button {
+        font-size: 1rem;
+    }
+}

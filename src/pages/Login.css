@@ -1,0 +1,114 @@
+/* src/pages/Login.css */
+:root {
+    --font-family-inter: 'Inter', sans-serif;
+    --color-black: #1d1c1c;
+    --color-white: #ffffff;
+    --color-our-blue: #0A4059;
+    --color-our-blue-light: #204f64;
+    --color-our-blue-dark: #101a24;
+    --color-our-blue-gray: #6E8CA3;
+    --color-our-orange: #F09C03;
+    --color-our-orange-light: #ecaa5e;
+    --color-our-brown: #271810;
+    --color-our-brown-light: #382419;
+    --color-our-beige: #f5ddc8;
+    --color-our-blue-dark-opacity: rgba(16, 26, 36, 0.6);
+}
+
+body {
+    font-family: var(--font-family-inter);
+    background-color: var(--color-white);
+}
+
+.login-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, var(--color-our-blue), var(--color-our-orange));
+}
+
+.login-container {
+    background-color: var(--color-white);
+    padding: 3rem 2rem;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    color: var(--color-our-blue-dark);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.input-group {
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group label {
+    color: var(--color-our-blue-gray);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.input-group input {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    border: 2px solid var(--color-our-blue-gray);
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: var(--color-beige);
+    color: var(--color-black);
+    transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: var(--color-our-orange);
+    box-shadow: 0 0 10px var(--color-our-orange-light);
+}
+
+.login-button {
+    padding: 0.75rem;
+    background-color: var(--color-our-orange);
+    color: var(--color-white);
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: var(--color-our-orange-light);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}

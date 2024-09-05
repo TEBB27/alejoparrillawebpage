@@ -1,0 +1,76 @@
+/* src/pages/Cupones.css */
+
+.cupones-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90vh;
+    /* 90% del alto de la pantalla */
+    padding: 20px;
+}
+
+h2 {
+    color: var(--color-our-blue-dark);
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.search-bar {
+    width: 80%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    border: 2px solid var(--color-our-blue-gray);
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.search-bar:focus {
+    outline: none;
+    border-color: var(--color-our-orange);
+}
+
+.cupones-table {
+    width: 80%;
+    border-collapse: collapse;
+    font-size: 1.2rem;
+}
+
+.cupones-table th,
+.cupones-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    /* Línea gris entre filas */
+    text-align: left;
+}
+
+.cupones-table th {
+    background-color: var(--color-our-blue-light);
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+.cupones-table tr:hover {
+    background-color: rgba(240, 156, 3, 0.1);
+    /* Color de hover */
+}
+
+.estado-verde {
+    color: green;
+}
+
+.estado-rojo {
+    color: red;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .cupones-table {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}

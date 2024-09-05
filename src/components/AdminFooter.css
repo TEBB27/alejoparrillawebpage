@@ -1,0 +1,52 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 10vh;
+    background-color: var(--color-our-blue);
+    color: var(--color-white);
+}
+
+.footer .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.footer img {
+    max-width: 30vh;
+    /* Ajustamos la imagen del logo */
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 15px;
+    /* Espaciado entre los íconos */
+}
+
+.social-icon-tw,
+.social-icon-fa {
+    font-size: 28px;
+}
+
+.rappi-logo {
+    width: 40px;
+    height: 40px;
+    /* Dimensiones de la imagen del logo de Rappi */
+}
+
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .column {
+        margin-bottom: 20px;
+        /* Espacio entre las columnas en pantallas pequeñas */
+    }
+
+    .footer img {
+        max-width: 60%;
+    }
+}

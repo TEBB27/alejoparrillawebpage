@@ -6,12 +6,12 @@ import { Inicio } from './pages/inicio.tsx';
 import Sobrenosotros from './pages/sobre-nosotros';
 import { Vinculate } from './pages/vinculate.tsx';
 import NewMenu from './pages/newMenu';
-
 import Navbar from './components/navbar';
 import LoadingPage from './components/loadingPage';
 import Footer from './components/footer.tsx';
 import { RestaurantProvider } from './context/RestaurantContext.tsx';
-import ScrollToTop from './components/ScrollToTop';  // Importa el nuevo componente
+import ScrollToTop from './components/ScrollToTop';
+import AdminApp from './AdminApp';  // Importa AdminApp
 
 const faviconUrls = [
   '/favicon1.ico',
@@ -26,11 +26,11 @@ function App() {
 
   useEffect(() => {
     const handleLoad = () => {
-      setLoading(false); // Cuando se carga completamente el sitio, oculta la pantalla de carga
+      setLoading(false);
     };
     window.addEventListener('load', handleLoad);
     return () => {
-      window.removeEventListener('load', handleLoad); // Limpia el evento al desmontar el componente
+      window.removeEventListener('load', handleLoad);
     };
   }, []);
 
@@ -45,17 +45,17 @@ function App() {
           </Helmet>
           <RestaurantProvider>
             <Router>
-              <ScrollToTop />  {/* Añade el componente ScrollToTop aquí */}
-              <Navbar />
+              <ScrollToTop />
               <Routes>
-                <Route path="/" element={<Inicio />} />
-                <Route path="/nosotros" element={<Sobrenosotros />} />
-                <Route path="/contacto" element={<Vinculate />} />
-                <Route path="/menu" element={<NewMenu
-                  selectedItemName={"Alejo Parrilla"}
-                />} />
+                {/* Rutas públicas con Navbar y Footer */}
+                <Route path="/" element={<><Navbar /><Inicio /><Footer /></>} />
+                <Route path="/nosotros" element={<><Navbar /><Sobrenosotros /><Footer /></>} />
+                <Route path="/contacto" element={<><Navbar /><Vinculate /><Footer /></>} />
+                <Route path="/menu" element={<><Navbar /><NewMenu selectedItemName={"Alejo Parrilla"} /><Footer /></>} />
+
+                {/* Ruta del admin con su propio layout */}
+                <Route path="/admin/*" element={<AdminApp />} />
               </Routes>
-              <Footer />
             </Router>
           </RestaurantProvider>
         </>
