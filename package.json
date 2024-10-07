@@ -31,7 +31,7 @@
     "react-multi-carousel": "^2.8.4",
     "react-responsive": "^9.0.2",
     "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "^6.26.1",
+    "react-router-dom": "^6.26.2",
     "react-slick": "^0.29.0",
     "react-swiper": "^0.1.5",
     "slick-carousel": "^1.8.1",
@@ -49,7 +49,7 @@
     "eslint": "^8.55.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "typescript": "^5.2.2",
+    "typescript": "file:",
     "vite": "^5.0.8",
     "vite-plugin-svgr": "^4.2.0"
   }
