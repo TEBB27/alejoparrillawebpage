@@ -1,6 +1,6 @@
 import './AdminFooter.css';
 import logo from '../assets/LOGOO-300x114.png';
-import { FaInstagram, FaFacebook} from "react-icons/fa";
+import { FaInstagram, FaFacebook } from "react-icons/fa";
 import rappi from '../assets/rappi.svg';
 
 const AdminFooter = () => {
